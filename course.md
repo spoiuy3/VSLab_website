@@ -1,21 +1,14 @@
 ---
 layout: default
-title: Gallery
-permalink: /gallery/
+title: Courses
+permalink: /courses/
 ---
 
-<section class="hero">
-  <h1>Gallery</h1>
-  <p>연구실 사진/행사/데모를 카드 형태로 배치하면 됩니다.</p>
-</section>
-
-<section class="grid">
-  <div class="card">
-    <h2>Event 1</h2>
-    <p class="muted">이미지/설명 추가</p>
-  </div>
-  <div class="card">
-    <h2>Event 2</h2>
-    <p class="muted">이미지/설명 추가</p>
+<section class="section">
+  <div class="wrap">
+    <h1 style="margin:0; font-size:44px; font-weight:800; color: var(--accent); text-align:center;">Courses</h1>
+    <p class="muted" style="text-align:center; margin-top:10px;">
+      Courses will be updated.
+    </p>
   </div>
 </section>

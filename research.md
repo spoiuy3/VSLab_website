@@ -1,21 +1,14 @@
 ---
 layout: default
-title: Gallery
-permalink: /gallery/
+title: Research
+permalink: /research/
 ---
 
-<section class="hero">
-  <h1>Gallery</h1>
-  <p>연구실 사진/행사/데모를 카드 형태로 배치하면 됩니다.</p>
-</section>
-
-<section class="grid">
-  <div class="card">
-    <h2>Event 1</h2>
-    <p class="muted">이미지/설명 추가</p>
-  </div>
-  <div class="card">
-    <h2>Event 2</h2>
-    <p class="muted">이미지/설명 추가</p>
+<section class="section">
+  <div class="wrap">
+    <h1 style="margin:0; font-size:44px; font-weight:800; color: var(--accent); text-align:center;">Research</h1>
+    <p class="muted" style="text-align:center; margin-top:10px;">
+      Research topics will be updated.
+    </p>
   </div>
 </section>
