@@ -572,8 +572,10 @@ a{ color: inherit; text-decoration: none; }
 }
 
 /* =========================
-   Team (2-column like VSLab)
+   TEAM (clean, no conflicts)
 ========================= */
+
+/* Title / section titles */
 .team-page .team-title{
   margin: 0 0 18px 0;
   text-align: center;
@@ -587,230 +589,58 @@ a{ color: inherit; text-decoration: none; }
   font-size: 22px;
   font-weight: 800;
   color: var(--accent);
+  letter-spacing: 0.2px;
 }
 
-/* 기본은 2열 */
-.team-grid{
+/* Team sections spacing (keep simple & consistent) */
+.team-page.section{
+  padding: 26px 0;
+}
+
+/* alt 배경 제거(요구사항) */
+.team-page.section.alt{
+  background: transparent;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* 2-column grid */
+.team-page .team-grid{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 70px;
-  row-gap: 34px;
+  column-gap: 80px;
+  row-gap: 40px;
 }
 
-/* PI는 1개만 보이게(원하면 2열로 둬도 됨) */
-.team-grid--pi{
+/* PI는 단일 컬럼(폭 제한) */
+.team-page .team-grid--pi{
   grid-template-columns: 1fr;
   max-width: 860px;
 }
 
-/* 카드(프로필) */
-.profile{
-  display: grid;
-  grid-template-columns: 160px 1fr;
-  align-items: center;
-  gap: 26px;
-}
-
-/* 원형 사진 */
-.profile-photo{
-  width: 160px;
-  height: 160px;
-  border-radius: 999px;
-  overflow: hidden;
-  border: 1px solid rgba(0,0,0,0.08);
-  background: #f2f3f6;
-}
-
-.profile-photo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* 사진 없을 때 플레이스홀더 */
-.profile-photo.is-empty{
-  background:
-    radial-gradient(220px 140px at 30% 30%, rgba(176,18,23,0.10), transparent 60%),
-    linear-gradient(180deg, #f7f8fa, #eef0f3);
-}
-
-/* 텍스트 */
-.profile-body{ min-width: 0; }
-.profile-name{
-  font-size: 22px;
-  font-weight: 800;
-  color: #2b2f36;
-  line-height: 1.2;
-}
-.profile-link{ color: inherit; }
-.profile-link:hover{ text-decoration: underline; }
-
-.profile-role{
-  margin-top: 10px;
-  color: #444;
-  font-size: 16px;
-  font-weight: 500;
-}
-.profile-email{
-  margin-top: 10px;
-  color: var(--muted);
-  font-size: 15px;
-  font-style: italic;
-}
-
-/* Lab Manager 같은 뱃지 */
-.profile-badge{
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 6px;
-  background: rgba(0,0,0,0.10);
-  color: #333;
-}
-
-/* 반응형 */
-@media (max-width: 960px){
-  .team-grid{ grid-template-columns: 1fr; row-gap: 28px; }
-  .profile{ grid-template-columns: 140px 1fr; }
-  .profile-photo{ width: 140px; height: 140px; }
-}
-@media (max-width: 520px){
-  .profile{ grid-template-columns: 110px 1fr; gap: 16px; }
-  .profile-photo{ width: 110px; height: 110px; }
-  .team-page .team-title{ font-size: 36px; }
-}
-
-/* =========================
-   Team spacing polish (override)
-========================= */
-
-/* Team 페이지에서만 섹션 패딩을 조금 줄여서 덩어리 간격 자연스럽게 */
-.team-page.section{
-  padding: 26px 0;
-}
-.team-page.section.alt{
-  padding: 26px 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-/* 섹션 타이틀 간격 정리 */
-.team-page .team-title{
-  margin: 0;
-}
-.team-page .team-section-title{
-  margin: 0 0 18px 0;
-  letter-spacing: 0.2px;
-}
-
-/* 2열 그리드 간격을 “적당히” (현재 70px은 조금 큼) */
-.team-page .team-grid{
-  column-gap: 52px;
-  row-gap: 28px;
-}
-
-/* PI 영역은 1열 유지 + 너무 휑하면 폭 제한 */
-.team-page .team-grid--pi{
-  max-width: 860px;
-}
-
-/* 프로필 내부(사진-텍스트) 간격/정렬 */
+/* Profile layout */
 .team-page .profile{
-  grid-template-columns: 140px 1fr;  /* 160 → 140로 줄여서 덜 휑하게 */
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 165px 1fr;  /* 사진 영역 */
+  gap: 30px;                          /* 사진-텍스트 간격 */
   align-items: center;
 }
 
-/* 사진 크기 살짝 줄여서 전체 밸런스 맞추기 */
-.team-page .profile-photo{
-  width: 140px;
-  height: 140px;
-}
-
-/* PI만 사진을 조금 더 크게 하고 싶으면(선택) */
-/*
-.team-page .team-grid--pi .profile-photo{
-  width: 160px;
-  height: 160px;
-}
-.team-page .team-grid--pi .profile{
-  grid-template-columns: 160px 1fr;
-}
-*/
-
-/* 텍스트 타이포 간격 */
-.team-page .profile-name{
-  font-size: 20px;
-  line-height: 1.25;
-}
-.team-page .profile-role{
-  margin-top: 6px;
-  font-size: 15px;
-}
-.team-page .profile-email{
-  margin-top: 6px;
-  font-size: 14px;
-}
-
-/* 뱃지(랩 매니저)도 조금 덜 튀게 */
-.team-page .profile-badge{
-  padding: 2px 8px;
-  border-radius: 6px;
-  background: rgba(0,0,0,0.08);
-}
-
-/* 반응형에서도 보기 좋게 */
-@media (max-width: 960px){
-  .team-page .team-grid{
-    grid-template-columns: 1fr;
-    row-gap: 24px;
-  }
-  .team-page .profile{
-    grid-template-columns: 130px 1fr;
-  }
-  .team-page .profile-photo{
-    width: 130px;
-    height: 130px;
-  }
-}
-
-@media (max-width: 520px){
-  .team-page .profile{
-    grid-template-columns: 110px 1fr;
-    gap: 16px;
-  }
-  .team-page .profile-photo{
-    width: 110px;
-    height: 110px;
-  }
-}
-
-/* =========================
-   Team: alt 배경 제거 유지
-========================= */
-.team-page.section.alt{
-  background: transparent !important;
-  border-top: none !important;
-  border-bottom: none !important;
-}
-
-/* =========================
-   Team: profile photo = 원형 유지 + 그림자만 추가
-========================= */
+/* Photo (circle + shadow) */
 .team-page .profile-photo{
   width: 150px;
   height: 150px;
 
-  border-radius: 999px;           /* ✅ 원형 유지 */
+  border-radius: 999px;
   overflow: hidden;
 
-  border: 1px solid rgba(0,0,0,0.06);
   background: #fff;
+  border: 1px solid rgba(0,0,0,0.14);  /* 흰색 느낌 방지 */
 
-  /* ✅ 그림자만 추가 (첨부 이미지 느낌) */
   box-shadow:
-    0 10px 22px rgba(0,0,0,0.16),
-    0 2px 6px rgba(0,0,0,0.10);
+    inset 0 0 0 1px rgba(255,255,255,0.55),
+    0 12px 26px rgba(0,0,0,0.14),
+    0 3px 10px rgba(0,0,0,0.10);
 }
 
 .team-page .profile-photo img{
@@ -820,79 +650,81 @@ a{ color: inherit; text-decoration: none; }
   display: block;
 }
 
-/* 사진 없을 때 placeholder도 원형 유지 */
+/* Placeholder */
 .team-page .profile-photo.is-empty{
-  border-radius: 999px;
   background:
     radial-gradient(220px 140px at 30% 30%, rgba(176,18,23,0.10), transparent 60%),
     linear-gradient(180deg, #fff, #f3f4f6);
 }
 
-/* 반응형 크기 */
-@media (max-width: 960px){
-  .team-page .profile-photo{ width: 130px; height: 130px; }
-}
-@media (max-width: 520px){
-  .team-page .profile-photo{ width: 110px; height: 110px; }
-}
+/* Text */
+.team-page .profile-body{ min-width: 0; }
 
-/* =========================
-   Team polish: spacing + border color
-========================= */
-
-/* 사진-텍스트 간격 넓히기 */
-.team-page .profile{
-  grid-template-columns: 165px 1fr; /* 사진 영역 약간 확보 */
-  gap: 30px;                        /* ✅ 텍스트와 더 떨어지게 */
-  align-items: center;
+.team-page .profile-name{
+  font-size: 20px;
+  font-weight: 800;
+  color: #2b2f36;
+  line-height: 1.25;
 }
 
-/* 섹션 내 그리드 간격도 살짝 넓게 (행 간격) */
-.team-page .team-grid{
-  column-gap: 80px;  /* 좌/우 열 간격 */
-  row-gap: 40px;     /* 위/아래 카드 간격 */
+.team-page .profile-link{ color: inherit; }
+.team-page .profile-link:hover{
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
-/* 원형 사진: 테두리 더 자연스럽게(회색 톤) + 그림자 유지 */
-.team-page .profile-photo{
-  border: 1px solid rgba(0,0,0,0.14);  /* ✅ 더 진한 회색 */
-  background: #fff;
-  box-shadow:
-    0 12px 26px rgba(0,0,0,0.14),
-    0 3px 10px rgba(0,0,0,0.10);
-}
-
-/* 혹시 사진이 밝아서 테두리가 묻히면, 아주 약한 내측 테두리도 추가 */
-.team-page .profile-photo{
-  box-shadow:
-    inset 0 0 0 1px rgba(255,255,255,0.55),
-    0 12px 26px rgba(0,0,0,0.14),
-    0 3px 10px rgba(0,0,0,0.10);
-}
-
-/* 텍스트 블록 줄 간격 살짝 정리 */
 .team-page .profile-role{
   margin-top: 8px;
-}
-.team-page .profile-email{
-  margin-top: 8px;
+  color: #444;
+  font-size: 15px;
+  font-weight: 500;
 }
 
-/* 반응형에서도 간격 유지 */
+.team-page .profile-email{
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Badge */
+.team-page .profile-badge{
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.08);
+  color: #333;
+}
+
+/* Responsive */
 @media (max-width: 960px){
+  .team-page .team-grid{
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 32px;
+  }
+
   .team-page .profile{
     grid-template-columns: 140px 1fr;
     gap: 22px;
   }
-  .team-page .team-grid{
-    column-gap: 0;
-    row-gap: 32px;
+
+  .team-page .profile-photo{
+    width: 130px;
+    height: 130px;
   }
 }
 
 @media (max-width: 520px){
+  .team-page .team-title{ font-size: 36px; }
+
   .team-page .profile{
     grid-template-columns: 120px 1fr;
     gap: 18px;
+  }
+
+  .team-page .profile-photo{
+    width: 110px;
+    height: 110px;
   }
 }
