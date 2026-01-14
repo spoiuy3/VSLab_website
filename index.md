@@ -10,7 +10,7 @@ permalink: /
       <div class="hero-carousel__viewport" aria-label="Hero carousel">
         <!-- Slide 1 -->
         <div class="hero-carousel__slide is-active">
-          <img class="hero-carousel__img" src="{{ '/assets/img/hero-1.jpg' | relative_url }}" alt="Lab main visual 1">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-1.png' | relative_url }}" alt="Lab main visual 1">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
           <div class="hero-carousel__overlay hero-carousel__overlay--minimal">
@@ -29,7 +29,7 @@ permalink: /
 
         <!-- Slide 2 -->
         <div class="hero-carousel__slide">
-          <img class="hero-carousel__img" src="{{ '/assets/img/hero-2.jpg' | relative_url }}" alt="Research highlight 1">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-2.png' | relative_url }}" alt="Research highlight 1">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
           <div class="hero-carousel__overlay">
@@ -44,7 +44,7 @@ permalink: /
 
         <!-- Slide 3 -->
         <div class="hero-carousel__slide">
-          <img class="hero-carousel__img" src="{{ '/assets/img/hero-3.jpg' | relative_url }}" alt="Research highlight 2">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-3.png' | relative_url }}" alt="Research highlight 2">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
           <div class="hero-carousel__overlay">
@@ -59,7 +59,7 @@ permalink: /
 
         <!-- Slide 4 -->
         <div class="hero-carousel__slide">
-          <img class="hero-carousel__img" src="{{ '/assets/img/hero-4.jpg' | relative_url }}" alt="Research highlight 3">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-4.png' | relative_url }}" alt="Research highlight 3">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
           <div class="hero-carousel__overlay">
@@ -74,7 +74,7 @@ permalink: /
 
         <!-- Slide 5 -->
         <div class="hero-carousel__slide">
-          <img class="hero-carousel__img" src="{{ '/assets/img/hero-5.jpg' | relative_url }}" alt="Research highlight 4">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-5.png' | relative_url }}" alt="Research highlight 4">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
           <div class="hero-carousel__overlay">
