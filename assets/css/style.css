@@ -572,133 +572,111 @@ a{ color: inherit; text-decoration: none; }
 }
 
 /* =========================
-   Team page
+   Team (2-column like VSLab)
 ========================= */
-.page-title{
-  margin: 0;
-  font-size: 34px;
-  line-height: 1.15;
-}
-.page-subtitle{
-  margin: 8px 0 0 0;
+.team-page .team-title{
+  margin: 0 0 18px 0;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--accent);
 }
 
+.team-page .team-section-title{
+  margin: 42px 0 18px 0;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+/* 기본은 2열 */
 .team-grid{
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.team-grid--pi{
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  max-width: 760px;
+  column-gap: 70px;
+  row-gap: 34px;
 }
 
-.team-grid--alumni{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+/* PI는 1개만 보이게(원하면 2열로 둬도 됨) */
+.team-grid--pi{
+  grid-template-columns: 1fr;
+  max-width: 860px;
 }
 
-.member-card{
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  box-shadow: var(--shadow);
-  padding: 14px;
-  display: flex;
-  gap: 12px;
+/* 카드(프로필) */
+.profile{
+  display: grid;
+  grid-template-columns: 160px 1fr;
   align-items: center;
+  gap: 26px;
 }
 
-.member-photo{
-  width: 74px;
-  height: 74px;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  background:
-    radial-gradient(140px 80px at 30% 30%, rgba(176,18,23,0.10), transparent 60%),
-    linear-gradient(180deg, #fff, #f3f4f6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  color: rgba(0,0,0,0.35);
-  flex: 0 0 auto;
-}
-.member-photo::before{
-  content: attr(data-initials);
+/* 원형 사진 */
+.profile-photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #f2f3f6;
 }
 
-.member-photo img{
+.profile-photo img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 16px;
   display: block;
 }
 
-/* 이미지 넣으면 initials 숨김 */
-.member-photo:has(img)::before{
-  content: "";
+/* 사진 없을 때 플레이스홀더 */
+.profile-photo.is-empty{
+  background:
+    radial-gradient(220px 140px at 30% 30%, rgba(176,18,23,0.10), transparent 60%),
+    linear-gradient(180deg, #f7f8fa, #eef0f3);
 }
 
-.member-body{
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.member-name{
-  font-weight: 700;
+/* 텍스트 */
+.profile-body{ min-width: 0; }
+.profile-name{
+  font-size: 22px;
+  font-weight: 800;
+  color: #2b2f36;
   line-height: 1.2;
 }
-.member-name-link{
-  color: inherit;
-}
-.member-name-link:hover{
-  text-decoration: underline;
-}
+.profile-link{ color: inherit; }
+.profile-link:hover{ text-decoration: underline; }
 
-.member-role{
+.profile-role{
+  margin-top: 10px;
+  color: #444;
+  font-size: 16px;
+  font-weight: 500;
+}
+.profile-email{
+  margin-top: 10px;
   color: var(--muted);
-  font-size: 13px;
-  line-height: 1.35;
+  font-size: 15px;
+  font-style: italic;
 }
 
-.member-email{
-  color: var(--muted);
-  font-size: 13px;
-}
-.member-email:hover{
-  text-decoration: underline;
-}
-
-.member-links{
-  margin-top: 2px;
-  font-size: 13px;
-  color: var(--muted);
-}
-.member-link:hover{
-  text-decoration: underline;
-}
-.dot-sep{
-  padding: 0 6px;
-  opacity: 0.6;
+/* Lab Manager 같은 뱃지 */
+.profile-badge{
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.10);
+  color: #333;
+  font-style: italic;
 }
 
-/* Responsive */
-@media (max-width: 1020px){
-  .team-grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
-@media (max-width: 860px){
-  .team-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .team-grid--pi{ grid-template-columns: 1fr; max-width: none; }
-  .team-grid--alumni{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* 반응형 */
+@media (max-width: 960px){
+  .team-grid{ grid-template-columns: 1fr; row-gap: 28px; }
+  .profile{ grid-template-columns: 140px 1fr; }
+  .profile-photo{ width: 140px; height: 140px; }
 }
 @media (max-width: 520px){
-  .team-grid{ grid-template-columns: 1fr; }
-  .team-grid--alumni{ grid-template-columns: 1fr; }
-  .member-card{ padding: 12px; }
-  .member-photo{ width: 66px; height: 66px; }
+  .profile{ grid-template-columns: 110px 1fr; gap: 16px; }
+  .profile-photo{ width: 110px; height: 110px; }
+  .team-page .team-title{ font-size: 36px; }
 }
