@@ -19,7 +19,7 @@ permalink: /team/
     <div class="team-grid team-grid--pi">
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/pi.jpg' | relative_url }}" alt="MyeongAh Cho"
+          <img src="{{ '/assets/img/team/pi.png' | relative_url }}" alt="MyeongAh Cho"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
 
@@ -43,7 +43,7 @@ permalink: /team/
     <div class="team-grid">
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/youngbin_kim.jpg' | relative_url }}" alt="YoungBin Kim"
+          <img src="{{ '/assets/img/team/youngbin_kim.png' | relative_url }}" alt="YoungBin Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -55,7 +55,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/taeyeong_kim.jpg' | relative_url }}" alt="TaeYeong Kim"
+          <img src="{{ '/assets/img/team/taeyeong_kim.png' | relative_url }}" alt="TaeYeong Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -67,7 +67,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/myoungchul_kim.jpg' | relative_url }}" alt="MyoungChul Kim"
+          <img src="{{ '/assets/img/team/myoungchul_kim.png' | relative_url }}" alt="MyoungChul Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -79,7 +79,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/kunho_heo.jpg' | relative_url }}" alt="KunHo Heo"
+          <img src="{{ '/assets/img/team/kunho_heo.png' | relative_url }}" alt="KunHo Heo"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -91,7 +91,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/wongyu_lee.jpg' | relative_url }}" alt="WonGyu Lee"
+          <img src="{{ '/assets/img/team/wongyu_lee.png' | relative_url }}" alt="WonGyu Lee"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -103,7 +103,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/seungjae_kim.jpg' | relative_url }}" alt="SeungJae Kim"
+          <img src="{{ '/assets/img/team/seungjae_kim.png' | relative_url }}" alt="SeungJae Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -115,7 +115,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/youngkwan_cho.jpg' | relative_url }}" alt="YoungKwan Cho"
+          <img src="{{ '/assets/img/team/youngkwan_cho.png' | relative_url }}" alt="YoungKwan Cho"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -127,7 +127,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/junhee_lee.jpg' | relative_url }}" alt="JunHee Lee"
+          <img src="{{ '/assets/img/team/junhee_lee.png' | relative_url }}" alt="JunHee Lee"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -139,7 +139,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/suyeon_kim.jpg' | relative_url }}" alt="SuYeon Kim"
+          <img src="{{ '/assets/img/team/suyeon_kim.png' | relative_url }}" alt="SuYeon Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -160,7 +160,7 @@ permalink: /team/
     <div class="team-grid">
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/hayoung_lee.jpg' | relative_url }}" alt="HaYoung Lee"
+          <img src="{{ '/assets/img/team/hayoung_lee.png' | relative_url }}" alt="HaYoung Lee"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -172,7 +172,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/seungjoon_lee.jpg' | relative_url }}" alt="SeungJoon Lee"
+          <img src="{{ '/assets/img/team/seungjoon_lee.png' | relative_url }}" alt="SeungJoon Lee"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -184,7 +184,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/chaebeen_bang.jpg' | relative_url }}" alt="ChaeBeen Bang"
+          <img src="{{ '/assets/img/team/chaebeen_bang.png' | relative_url }}" alt="ChaeBeen Bang"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -196,7 +196,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/useok_choi.jpg' | relative_url }}" alt="USeok Choi"
+          <img src="{{ '/assets/img/team/useok_choi.png' | relative_url }}" alt="USeok Choi"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -208,7 +208,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/gihyun_kim.jpg' | relative_url }}" alt="GiHyun Kim"
+          <img src="{{ '/assets/img/team/gihyun_kim.png' | relative_url }}" alt="GiHyun Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -220,7 +220,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/chanse_oh.jpg' | relative_url }}" alt="ChanSe Oh"
+          <img src="{{ '/assets/img/team/chanse_oh.png' | relative_url }}" alt="ChanSe Oh"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -232,7 +232,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/yonghyun_gwon.jpg' | relative_url }}" alt="YongHyun Gwon"
+          <img src="{{ '/assets/img/team/yonghyun_gwon.png' | relative_url }}" alt="YongHyun Gwon"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
