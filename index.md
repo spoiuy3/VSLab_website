@@ -146,8 +146,8 @@ permalink: /
         <div class="news-body">
           <div class="news-date">January 2026</div>
           <div class="news-text">
-            <strong>Three papers</strong> led by Taeyeong Kim, Junhee Lee, and Seungjae Kim have been accepted to
-            <a class="inline-link" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener">AAAI 2026</a>.
+            <span class="news-highlight">Three papers</span> led by <strong>Taeyeong Kim</strong>, <strong>Junhee Lee</strong>, and <strong>Seungjae Kim</strong> have been accepted to
+            <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener"><strong>AAAI 2026</strong></a>.
           </div>
         </div>
       </article>
