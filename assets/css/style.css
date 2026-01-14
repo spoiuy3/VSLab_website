@@ -632,3 +632,32 @@ a{ color: inherit; text-decoration: none; }
 .hero-carousel__slide--contain .hero-carousel__shade{
   display: none;
 }
+
+.news .news-text a{
+  color: inherit;
+  text-decoration: underline;                 /* 링크임은 표시 */
+  text-decoration-color: rgba(0,0,0,0.35);
+  text-underline-offset: 2px;
+}
+
+.news .news-text a:hover{
+  text-decoration-color: rgba(0,0,0,0.65);
+}
+
+/* Slide 2~5( contain )에서만 오버레이 레이아웃을 세로로 쌓아서 겹침 방지 */
+.hero-carousel__slide--contain .hero-carousel__overlay{
+  bottom: 44px;              /* dots 자리 확보 (겹침 방지) */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* 긴 제목이 있어도 안전하게 줄바꿈 */
+.hero-carousel__slide--contain .hero-carousel__paperTitle{
+  max-width: min(78ch, 100%);
+}
+
+/* 버튼을 왼쪽으로 자연스럽게 배치 */
+.hero-carousel__slide--contain .hero-carousel__learnMore{
+  align-self: flex-start;
+}
