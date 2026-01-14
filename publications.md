@@ -50,15 +50,26 @@ permalink: /publications/
         <div class="pub-item__top">
           <div class="pub-item__title">
             Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction
-            <a class="pub-icon-link" href="https://visualsciencelab-khu.github.io/OCRL-3DSSG/"
-            target="_blank" rel="noopener" aria-label="Project page">
-            <svg viewBox="0 0 24 24" class="pub-icon" aria-hidden="true">
-              <path d="M10.59 13.41a1 1 0 0 0 1.41 1.41l4.95-4.95a3 3 0 0 0-4.24-4.24l-2.12 2.12a1 1 0 1 0 1.41 1.41l2.12-2.12a1 1 0 1 1 1.41 1.41l-4.95 4.95z"/>
-              <path d="M13.41 10.59a1 1 0 0 0-1.41-1.41l-4.95 4.95a3 3 0 0 0 4.24 4.24l2.12-2.12a1 1 0 1 0-1.41-1.41l-2.12 2.12a1 1 0 1 1-1.41-1.41l4.95-4.95z"/>
-            </svg>
-          </a>
+            <a class="pub-icon-link"
+              href="https://visualsciencelab-khu.github.io/OCRL-3DSSG/"
+              target="_blank" rel="noopener"
+              aria-label="Project page">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  class="pub-icon"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                <path d="M10 13a5 5 0 0 1 0-7l1.5-1.5a5 5 0 0 1 7 7L17 13"/>
+                <path d="M14 11a5 5 0 0 1 0 7l-1.5 1.5a5 5 0 0 1-7-7L7 11"/>
+              </svg>
+            </a>
           </div>
         </div>
+
         <div class="pub-item__authors">KunHo Heo*, GiHyun Kim*, SuYeon Kim, MyeongAh Cho</div>
         <div class="pub-item__venue">The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025), Dec. 2025</div>
       </article>
