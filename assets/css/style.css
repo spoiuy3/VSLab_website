@@ -900,5 +900,6 @@ a{ color: inherit; text-decoration: none; }
   width: 20px;                      /* 텍스트와 비슷: 18~20 추천 */
   height: 20px;
   display: block;
-  fill: currentColor;               /* 핵심: 색은 pub-icon-link의 color를 따라감 */
+  fill: currentColor !important;   /* ✅ 속 채우기 */
+  stroke: none !important;         /* (선 기반이면 선 제거) */          
 }
