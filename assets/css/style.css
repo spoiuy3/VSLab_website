@@ -882,3 +882,23 @@ a{ color: inherit; text-decoration: none; }
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* 아이콘 링크(텍스트 옆) */
+.pub-icon-link{
+  margin-left: 1px;                 /* 텍스트에 거의 붙게 */
+  color: rgba(176,18,23,0.55);      /* 기본 연하게 */
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.pub-icon-link:hover{
+  color: var(--accent);             /* hover 시 진하게 */
+}
+
+/* 아이콘 크기/색 */
+.pub-icon{
+  width: 20px;                      /* 텍스트와 비슷: 18~20 추천 */
+  height: 20px;
+  display: block;
+  fill: currentColor;               /* 핵심: 색은 pub-icon-link의 color를 따라감 */
+}
