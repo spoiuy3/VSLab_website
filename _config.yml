@@ -1,8 +1,6 @@
-title: My Lab
-description: Lab Website on GitHub Pages
-# 프로젝트 사이트면 baseurl에 "/레포지토리명" 을 넣으세요. (예: /my-lab-site)
-# 유저/조직 사이트면 보통 "" 로 둡니다.
-baseurl: "VSLab_website"
+title: Visual Science Lab
+description: Lab website hosted on GitHub Pages
+baseurl: ""
 url: ""
 
 markdown: kramdown
