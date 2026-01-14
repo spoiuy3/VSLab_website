@@ -1,6 +1,6 @@
 title: Visual Science Lab
 description: Lab website hosted on GitHub Pages
-baseurl: ""
+baseurl: "VSLab_website"
 url: ""
 
 markdown: kramdown
