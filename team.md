@@ -25,7 +25,11 @@ permalink: /team/
 
         <div class="profile-body">
           <div class="profile-name">
-            <a class="profile-link" href="#" target="_blank" rel="noopener">MyeongAh Cho</a>
+            <a class="profile-link"
+              href="https://myeongahcho.netlify.app/"
+              target="_blank" rel="noopener">
+              MyeongAh Cho
+            </a>
           </div>
           <div class="profile-role">Assistant Professor</div>
           <div class="profile-email">maycho (at) khu.ac.kr</div>
