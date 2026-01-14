@@ -28,7 +28,7 @@ permalink: /
         </div>
 
         <!-- Slide 2 -->
-        <div class="hero-carousel__slide">
+        <div class="hero-carousel__slide hero-carousel__slide--contain">
           <img class="hero-carousel__img" src="{{ '/assets/img/main_slide-2.png' | relative_url }}" alt="Research highlight 1">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
@@ -43,7 +43,7 @@ permalink: /
         </div>
 
         <!-- Slide 3 -->
-        <div class="hero-carousel__slide">
+        <div class="hero-carousel__slide hero-carousel__slide--contain">
           <img class="hero-carousel__img" src="{{ '/assets/img/main_slide-3.png' | relative_url }}" alt="Research highlight 2">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
@@ -58,8 +58,8 @@ permalink: /
         </div>
 
         <!-- Slide 4 -->
-        <div class="hero-carousel__slide">
-          <img class="hero-carousel__img" src="{{ '/assets/img/main_slide-4.png' | relative_url }}" alt="Research highlight 3">
+        <div class="hero-carousel__slide hero-carousel__slide--contain">
+          <img class="hero-carousel__img" src="{{ '/assets/img/main_slide-4.jpg' | relative_url }}" alt="Research highlight 3">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
           <div class="hero-carousel__overlay">
@@ -73,7 +73,7 @@ permalink: /
         </div>
 
         <!-- Slide 5 -->
-        <div class="hero-carousel__slide">
+        <div class="hero-carousel__slide hero-carousel__slide--contain">
           <img class="hero-carousel__img" src="{{ '/assets/img/main_slide-5.png' | relative_url }}" alt="Research highlight 4">
           <div class="hero-carousel__shade" aria-hidden="true"></div>
 
@@ -143,7 +143,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">January 2026</div>
           <div class="news-text">
-            Three papers led by **Taeyeong Kim**, **Junhee Lee**, and **Seungjae Kim** have been accepted to AAAI 2026.
+            Three papers led by <strong>Taeyeong Kim</strong>, <strong>Junhee Lee</strong>, and <strong>Seungjae Kim</strong> have been accepted to AAAI 2026.
           </div>
         </div>
       </article>
@@ -153,7 +153,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            Our paper, **KH Heo** etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to **NeurIPS 2025**.
+            Our paper, <strong>KH Heo</strong> etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to <strong>NeurIPS 2025</strong>.
           </div>
         </div>
       </article>
@@ -163,7 +163,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            **Myoungchul Kim** has been awarded the NRF "Research Subsidies for Master’s Students" grant (Annual research budget: 12 million KRW).
+            <strong>Myoungchul Kim</strong> has been awarded the NRF "Research Subsidies for Master’s Students" grant (Annual research budget: 12 million KRW).
           </div>
         </div>
       </article>
@@ -173,7 +173,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">August 2025</div>
           <div class="news-text">
-            Our paper "Distance-based Bi-directional Edge Update Graph Neural Network for 3D Scene Graph Generation" has won the Excellence Award at the Junior Paper Competition from **KCC2025**.
+            Our paper "Distance-based Bi-directional Edge Update Graph Neural Network for 3D Scene Graph Generation" has won the Excellence Award at the Junior Paper Competition from <strong>KCC2025</strong>.
           </div>
         </div>
       </article>
@@ -183,7 +183,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">May 2025</div>
           <div class="news-text">
-            Our paper has been accepted to ELSEVIER **Pattern Recognition (IF: 7.6)**.
+            Our paper has been accepted to ELSEVIER <strong>Pattern Recognition (IF: 7.6)</strong>.
           </div>
         </div>
       </article>
