@@ -828,65 +828,54 @@ a{ color: inherit; text-decoration: none; }
   margin-top: 4px;
 }
 
+/* === Publications icon: inline, no box, always visible === */
+
+/* (혹시 pub-item__top을 쓰고 있다면 우측 밀림 방지) */
 .pub-item__top{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
+  display: block !important;
 }
 
-/* 아이콘 링크 버튼 */
+/* 아이콘 링크: 박스 제거 + 항상 보이기 */
 .pub-icon-link{
-  flex: 0 0 auto;
-  width: 34px;
-  height: 34px;
-  border-radius: 10px;
-  border: 1px solid rgba(0,0,0,0.10);
-  background: rgba(176,18,23,0.06);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  /* 평소엔 “은근히” 숨김 */
-  opacity: 0;
-  transform: translateY(2px);
-  transition: opacity 140ms ease, transform 140ms ease, background 140ms ease;
-}
-
-/* pub-item에 마우스를 올리면 아이콘이 나타남 */
-.pub-item:hover .pub-icon-link,
-.pub-icon-link:focus-visible{
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* SVG 색상(포인트 컬러로) */
-.pub-icon{
-  width: 18px;
-  height: 18px;
-  fill: var(--accent);
-}
-
-/* 호버 효과 */
-.pub-icon-link:hover{
-  background: rgba(176,18,23,0.10);
-}
-
-
-/* ===== Publications: link icon size fix (force) ===== */
-.pub-icon-link{
-  width: 30px !important;
-  height: 30px !important;
-  padding: 0 !important;
-  border-radius: 10px;
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+
+  /* 박스/배경 제거 */
+  width: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  margin-left: 8px;           /* 제목과 간격 */
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+
+  /* 항상 보이기 */
+  opacity: 1 !important;
+  transform: none !important;
+
+  /* 기본 색(연한 포인트) */
+  color: rgba(176,18,23,0.55);
+  vertical-align: middle;
 }
 
+/* SVG 크기 */
 .pub-icon{
   width: 16px !important;
   height: 16px !important;
   display: block !important;
+  fill: currentColor;         /* color로 제어 */
+}
+
+/* 마우스 올리면 진하게 */
+.pub-icon-link:hover{
+  color: var(--accent);
+}
+
+/* 키보드 접근성 */
+.pub-icon-link:focus-visible{
+  outline: 2px solid rgba(176,18,23,0.35);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
