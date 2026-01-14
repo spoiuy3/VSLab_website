@@ -47,7 +47,14 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">Youngbin Kim</a></div>
+          <div class="profile-body">
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://important-chance-a71.notion.site/a73a2f659e9e4d4f90518a6685cc574a"
+              target="_blank" rel="noopener">
+              Youngbin Kim
+            </a>
+          </div>
           <div class="profile-role"><span class="profile-badge">Lab Manager</span></div>
           <div class="profile-email">youngbean (at) khu.ac.kr</div>
         </div>
@@ -59,7 +66,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">Taeyeong Kim</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://taeyeongkim.vercel.app/"
+              target="_blank" rel="noopener">
+              TaeYeong Kim
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">rlaxo0511 (at) khu.ac.kr</div>
         </div>
@@ -71,7 +84,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">Myoung Chul Kim</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://myoungchulkim.com/"
+              target="_blank" rel="noopener">
+              MyoungChul Kim
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">2018102095 (at) khu.ac.kr</div>
         </div>
@@ -83,7 +102,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">KunHo Heo</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://heokunho.github.io/"
+              target="_blank" rel="noopener">
+              KunHo Heo
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">hkh7710 (at) khu.ac.kr</div>
         </div>
@@ -95,7 +120,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">WonGyu Lee</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://wklee0607.github.io/"
+              target="_blank" rel="noopener">
+              WonGyu Lee
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">fovert (at) khu.ac.kr</div>
         </div>
@@ -107,7 +138,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">SeungJae Kim</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://tmdwo8814.github.io/"
+              target="_blank" rel="noopener">
+              SeungJae Kim
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">tmdwo8814 (at) khu.ac.kr</div>
         </div>
@@ -119,7 +156,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">YoungKwan Cho</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://youngkwan-cho.github.io/"
+              target="_blank" rel="noopener">
+              YoungKwan Cho
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">dudrhks1009 (at) khu.ac.kr</div>
         </div>
@@ -131,7 +174,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">JunHee Lee</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://efficient-haircut-fa4.notion.site/Junhee-Lee-264c5195bde6804387d4d219ed04bd2e?source=copy_link"
+              target="_blank" rel="noopener">
+              JunHee Lee
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">jhlee39 (at) khu.ac.kr</div>
         </div>
@@ -143,7 +192,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">SuYeon Kim</a></div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://jagged-shoemaker-d6c.notion.site/SuYeon-Kim-262048ede99680799d03f7b32004d93d"
+              target="_blank" rel="noopener">
+              SuYeon Kim
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">spoiuy3 (at) khu.ac.kr</div>
         </div>
