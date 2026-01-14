@@ -21,11 +21,7 @@ permalink: /
               enabling machines to perceive the world more like humans do.
             </div>
             <div class="hero-carousel__actions">
-              <a class="inline-link"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdumy7iowdScouDLq62i9QIUTZsFBz3r7YXkZj0eFpPVFygYA/viewform"
-                  target="_blank" rel="noopener">
-                  Application</a>
-              <a class="btn" href="{{ '/publications/' | relative_url }}">See Publications</a>
+              <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdumy7iowdScouDLq62i9QIUTZsFBz3r7YXkZj0eFpPVFygYA/viewform" target="_blank" rel="noopener">Application</a>
             </div>
           </div>
         </div>
