@@ -126,6 +126,7 @@ permalink: /
             target="_blank" rel="noopener">
             ( Application )
           </a>
+          <a class="btn" href="{{ '/publications/' | relative_url }}">See Publications</a>
       </p>
 
       <a class="see-more" href="{{ '/contact/' | relative_url }}">See more...</a>
