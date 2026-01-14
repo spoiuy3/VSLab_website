@@ -90,16 +90,15 @@ permalink: /
         <!-- Controls -->
         <button class="hero-carousel__btn hero-carousel__btn--prev" type="button" aria-label="Previous slide">‹</button>
         <button class="hero-carousel__btn hero-carousel__btn--next" type="button" aria-label="Next slide">›</button>
-
-        <!-- Dots -->
-        <div class="hero-carousel__dots" aria-label="Carousel pagination">
+      </div>
+      <!-- Dots -->
+        <div class="hero-carousel__dots hero-carousel__dots--outside" aria-label="Carousel pagination">
           <button class="hero-carousel__dot is-active" type="button" aria-label="Go to slide 1"></button>
           <button class="hero-carousel__dot" type="button" aria-label="Go to slide 2"></button>
           <button class="hero-carousel__dot" type="button" aria-label="Go to slide 3"></button>
           <button class="hero-carousel__dot" type="button" aria-label="Go to slide 4"></button>
           <button class="hero-carousel__dot" type="button" aria-label="Go to slide 5"></button>
         </div>
-      </div>
     </div>
   </div>
 </section>
