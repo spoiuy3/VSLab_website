@@ -4,16 +4,21 @@ title: Team
 permalink: /team/
 ---
 
+<!-- Title -->
 <section class="section team-page">
   <div class="wrap">
     <h1 class="team-title">Team</h1>
+  </div>
+</section>
 
-    <!-- ===== PI ===== -->
+<!-- ===== PI (alt) ===== -->
+<section class="section alt team-page">
+  <div class="wrap">
     <h2 class="team-section-title">PI</h2>
+
     <div class="team-grid team-grid--pi">
       <article class="profile">
         <div class="profile-photo">
-          <!-- 나중에 사진 넣기 -->
           <img src="{{ '/assets/img/team/pi.jpg' | relative_url }}" alt="MyeongAh Cho"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
@@ -27,9 +32,14 @@ permalink: /team/
         </div>
       </article>
     </div>
+  </div>
+</section>
 
-    <!-- ===== MS Students ===== -->
+<!-- ===== MS Students (white) ===== -->
+<section class="section team-page">
+  <div class="wrap">
     <h2 class="team-section-title">MS Students</h2>
+
     <div class="team-grid">
       <article class="profile">
         <div class="profile-photo">
@@ -138,13 +148,16 @@ permalink: /team/
           <div class="profile-email">spoiuy3 (at) khu.ac.kr</div>
         </div>
       </article>
-
     </div>
+  </div>
+</section>
 
-    <!-- ===== Undergraduate Interns ===== -->
+<!-- ===== Undergraduate Interns (alt) ===== -->
+<section class="section alt team-page">
+  <div class="wrap">
     <h2 class="team-section-title">Undergraduate Interns</h2>
-    <div class="team-grid">
 
+    <div class="team-grid">
       <article class="profile">
         <div class="profile-photo">
           <img src="{{ '/assets/img/team/hayoung_lee.jpg' | relative_url }}" alt="HaYoung Lee"
@@ -228,9 +241,26 @@ permalink: /team/
           <div class="profile-email">mathewgwon (at) khu.ac.kr</div>
         </div>
       </article>
+    </div>
+  </div>
+</section>
 
-    <!-- ===== Alumni ===== -->
+<!-- ===== Alumni (white) ===== -->
+<section class="section team-page">
+  <div class="wrap">
     <h2 class="team-section-title">Alumni</h2>
 
+    <!-- Alumni는 너가 나중에 추가 -->
+    <div class="team-grid">
+      <!-- 예시 -->
+      <article class="profile">
+        <div class="profile-photo is-empty"></div>
+        <div class="profile-body">
+          <div class="profile-name">Alumni Name</div>
+          <div class="profile-role">MS (2025) · Current: Company/Institute</div>
+          <div class="profile-email">alumni (at) email.com</div>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
