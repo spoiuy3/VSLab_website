@@ -222,7 +222,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">Hayoung Lee</div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://carpal-money-c50.notion.site/Hayoung-Lee-cb5c3a0ec0ed4e1c9d63b9a43a1e689e"
+              target="_blank" rel="noopener">
+              HaYoung Lee
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">lhayoung9 (at) khu.ac.kr</div>
         </div>
@@ -234,7 +240,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">SeungJoon Lee</div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://my.surfit.io/w/1720083748"
+              target="_blank" rel="noopener">
+              SeungJoon Lee
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">diplomat3334 (at) khu.ac.kr</div>
         </div>
@@ -282,7 +294,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">Chanse Oh</div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://ginger-parrotfish-83b.notion.site/My-Portfolio-f58f2041e65145ac9f4d74815a722e1d"
+              target="_blank" rel="noopener">
+              Chanse Oh
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">chanse0727 (at) khu.ac.kr</div>
         </div>
@@ -294,7 +312,13 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">YongHyun Gwon</div>
+          <div class="profile-name">
+            <a class="profile-link"
+              href="https://www.notion.so/Yonghyun-Gwon-Noperior-76b3ecfe134343818a2b4280fe3b0261"
+              target="_blank" rel="noopener">
+              YongHyun Gwon
+            </a>
+          </div>
           <div class="profile-role"></div>
           <div class="profile-email">mathewgwon (at) khu.ac.kr</div>
         </div>
