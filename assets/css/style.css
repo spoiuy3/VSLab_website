@@ -897,8 +897,8 @@ a{ color: inherit; text-decoration: none; }
 
 /* 아이콘 크기/색 */
 .pub-icon{
-  width: 20px;                      /* 텍스트와 비슷: 18~20 추천 */
-  height: 20px;
+  width: 18px;                      /* 텍스트와 비슷: 18~20 추천 */
+  height: 18px;
   display: block;
   fill: currentColor !important;   /* ✅ 속 채우기 */
   stroke: none !important;         /* (선 기반이면 선 제거) */          
