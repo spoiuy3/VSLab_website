@@ -6,92 +6,104 @@ permalink: /
 
 <section class="hero hero--carousel">
   <div class="wrap">
-    <div class="carousel" data-autoplay="true" data-interval="5000">
-      <div class="carousel__viewport">
-        <div class="carousel__track">
-          <!-- Slide 1: 오버레이 없음(또는 간단한 문구만) -->
-          <div class="carousel__slide is-active">
-            <img class="carousel__img" src="{{ '/assets/img/hero-1.png' | relative_url }}" alt="Lab main visual 1">
-            <div class="carousel__overlay carousel__overlay--minimal">
-              <div class="carousel__kicker">WELCOME TO</div>
-              <div class="carousel__headline">Visual Science Lab</div>
-              <div class="carousel__sub">
-                Our mission is to bridge the gap between human cognition and artificial intelligence —
-                enabling machines to perceive the world more like humans do.
-              </div>
-              <div class="carousel__actions">
-                <a class="btn primary" href="{{ '/contact/' | relative_url }}">Application</a>
-                <a class="btn" href="{{ '/publications/' | relative_url }}">See Publications</a>
-              </div>
-            </div>
-          </div>
+    <div class="hero-carousel" data-autoplay="true" data-interval="5000">
+      <div class="hero-carousel__viewport" aria-label="Hero carousel">
+        <!-- Slide 1 -->
+        <div class="hero-carousel__slide is-active">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-1.jpg' | relative_url }}" alt="Lab main visual 1">
+          <div class="hero-carousel__shade" aria-hidden="true"></div>
 
-          <!-- Slide 2~5: 논문 제목 + Learn more -->
-          <div class="carousel__slide">
-            <img class="carousel__img" src="{{ '/assets/img/hero-2.png' | relative_url }}" alt="Research highlight 1">
-            <div class="carousel__overlay">
-              <div class="carousel__paperTitle">
-                Paper Title Placeholder #1: Learning XYZ for ABC
-              </div>
-              <a class="carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
-                Learn more
-              </a>
+          <div class="hero-carousel__overlay hero-carousel__overlay--minimal">
+            <div class="hero-carousel__kicker">WELCOME TO</div>
+            <div class="hero-carousel__headline">Visual Science Lab.</div>
+            <div class="hero-carousel__sub">
+              Our mission is to bridge the gap between human cognition and artificial intelligence —
+              enabling machines to perceive the world more like humans do.
             </div>
-          </div>
-
-          <div class="carousel__slide">
-            <img class="carousel__img" src="{{ '/assets/img/hero-3.png' | relative_url }}" alt="Research highlight 2">
-            <div class="carousel__overlay">
-              <div class="carousel__paperTitle">
-                Paper Title Placeholder #2: Object-Centric Representation Learning …
-              </div>
-              <a class="carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
-                Learn more
-              </a>
-            </div>
-          </div>
-
-          <div class="carousel__slide">
-            <img class="carousel__img" src="{{ '/assets/img/hero-4.png' | relative_url }}" alt="Research highlight 3">
-            <div class="carousel__overlay">
-              <div class="carousel__paperTitle">
-                Paper Title Placeholder #3: Robust Perception under Domain Shift
-              </div>
-              <a class="carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
-                Learn more
-              </a>
-            </div>
-          </div>
-
-          <div class="carousel__slide">
-            <img class="carousel__img" src="{{ '/assets/img/hero-5.png' | relative_url }}" alt="Research highlight 4">
-            <div class="carousel__overlay">
-              <div class="carousel__paperTitle">
-                Paper Title Placeholder #4: Multimodal Reasoning with …
-              </div>
-              <a class="carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
-                Learn more
-              </a>
+            <div class="hero-carousel__actions">
+              <a class="btn primary" href="{{ '/contact/' | relative_url }}">Application</a>
+              <a class="btn" href="{{ '/publications/' | relative_url }}">See Publications</a>
             </div>
           </div>
         </div>
 
+        <!-- Slide 2 -->
+        <div class="hero-carousel__slide">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-2.jpg' | relative_url }}" alt="Research highlight 1">
+          <div class="hero-carousel__shade" aria-hidden="true"></div>
+
+          <div class="hero-carousel__overlay">
+            <div class="hero-carousel__paperTitle">
+              Paper Title Placeholder #1: Learning XYZ for ABC
+            </div>
+            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+              Learn more
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-carousel__slide">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-3.jpg' | relative_url }}" alt="Research highlight 2">
+          <div class="hero-carousel__shade" aria-hidden="true"></div>
+
+          <div class="hero-carousel__overlay">
+            <div class="hero-carousel__paperTitle">
+              Paper Title Placeholder #2: Object-Centric Representation Learning …
+            </div>
+            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+              Learn more
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="hero-carousel__slide">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-4.jpg' | relative_url }}" alt="Research highlight 3">
+          <div class="hero-carousel__shade" aria-hidden="true"></div>
+
+          <div class="hero-carousel__overlay">
+            <div class="hero-carousel__paperTitle">
+              Paper Title Placeholder #3: Robust Perception under Domain Shift
+            </div>
+            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+              Learn more
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="hero-carousel__slide">
+          <img class="hero-carousel__img" src="{{ '/assets/img/hero-5.jpg' | relative_url }}" alt="Research highlight 4">
+          <div class="hero-carousel__shade" aria-hidden="true"></div>
+
+          <div class="hero-carousel__overlay">
+            <div class="hero-carousel__paperTitle">
+              Paper Title Placeholder #4: Multimodal Reasoning with …
+            </div>
+            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+              Learn more
+            </a>
+          </div>
+        </div>
+
         <!-- Controls -->
-        <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Previous slide">‹</button>
-        <button class="carousel__btn carousel__btn--next" type="button" aria-label="Next slide">›</button>
+        <button class="hero-carousel__btn hero-carousel__btn--prev" type="button" aria-label="Previous slide">‹</button>
+        <button class="hero-carousel__btn hero-carousel__btn--next" type="button" aria-label="Next slide">›</button>
 
         <!-- Dots -->
-        <div class="carousel__dots" role="tablist" aria-label="Carousel pagination">
-          <button class="carousel__dot is-active" type="button" aria-label="Go to slide 1"></button>
-          <button class="carousel__dot" type="button" aria-label="Go to slide 2"></button>
-          <button class="carousel__dot" type="button" aria-label="Go to slide 3"></button>
-          <button class="carousel__dot" type="button" aria-label="Go to slide 4"></button>
-          <button class="carousel__dot" type="button" aria-label="Go to slide 5"></button>
+        <div class="hero-carousel__dots" aria-label="Carousel pagination">
+          <button class="hero-carousel__dot is-active" type="button" aria-label="Go to slide 1"></button>
+          <button class="hero-carousel__dot" type="button" aria-label="Go to slide 2"></button>
+          <button class="hero-carousel__dot" type="button" aria-label="Go to slide 3"></button>
+          <button class="hero-carousel__dot" type="button" aria-label="Go to slide 4"></button>
+          <button class="hero-carousel__dot" type="button" aria-label="Go to slide 5"></button>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section class="section">

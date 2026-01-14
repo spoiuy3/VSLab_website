@@ -395,98 +395,103 @@ a{ color: inherit; text-decoration: none; }
   .nav-link{ width: 100%; }
 }
 
-/* ===== HERO CAROUSEL (keeps previous style vars) ===== */
+/* ===== HERO CAROUSEL (single-box, no stacking) ===== */
 .hero--carousel{
   padding: 22px 0 10px;
   border-bottom: 1px solid var(--line);
 }
 
-.carousel__viewport{
+.hero-carousel__viewport{
   position: relative;
   border-radius: 18px;
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   overflow: hidden;
-  background: #fff;
-}
-
-/* track */
-.carousel__track{
-  display: flex;
-  width: 100%;
-  transform: translateX(0%);
-  transition: transform 520ms ease;
-}
-
-.carousel__slide{
-  position: relative;
-  flex: 0 0 100%;
-  height: 420px; /* "대문짝" 느낌 */
   background: #000;
+
+  /* 화면에 맞게 알아서 크기 조절 */
+  height: clamp(320px, 48vw, 520px);
 }
 
-/* image */
-.carousel__img{
+/* slides are stacked absolutely -> only active is visible */
+.hero-carousel__slide{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 520ms ease;
+  pointer-events: none;
+}
+.hero-carousel__slide.is-active{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero-carousel__img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;      /* 핵심: 박스에 맞게 자동 크롭/조절 */
   display: block;
-  filter: saturate(1.02) contrast(1.02);
 }
 
-/* overlay */
-.carousel__overlay{
+/* dark shade for text readability */
+.hero-carousel__shade{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.55) 0%,
+    rgba(0,0,0,0.22) 55%,
+    rgba(0,0,0,0.10) 100%
+  );
+}
+
+.hero-carousel__overlay{
   position: absolute;
   left: 26px;
-  bottom: 22px;
   right: 26px;
+  bottom: 22px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: 14px;
-  pointer-events: none;
 }
 
-.carousel__overlay--minimal{
+.hero-carousel__overlay--minimal{
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
   gap: 10px;
 }
 
-.carousel__kicker{
+.hero-carousel__kicker{
   font-size: 12px;
   letter-spacing: 0.18em;
   color: rgba(255,255,255,0.85);
-  pointer-events: none;
 }
 
-.carousel__headline{
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 1.05;
+.hero-carousel__headline{
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.02;
   color: #fff;
   text-shadow: 0 10px 30px rgba(0,0,0,0.35);
-  pointer-events: none;
 }
 
-.carousel__sub{
-  max-width: 68ch;
+.hero-carousel__sub{
+  max-width: 70ch;
   color: rgba(255,255,255,0.88);
   line-height: 1.7;
   text-shadow: 0 10px 26px rgba(0,0,0,0.35);
-  pointer-events: none;
 }
 
-.carousel__actions{
+.hero-carousel__actions{
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  pointer-events: auto; /* 버튼 클릭 가능 */
 }
 
-/* paper info box */
-.carousel__paperTitle{
+/* paper title box + learn more */
+.hero-carousel__paperTitle{
   max-width: 72ch;
   padding: 12px 14px;
   border-radius: 14px;
@@ -496,11 +501,9 @@ a{ color: inherit; text-decoration: none; }
   line-height: 1.5;
   font-weight: 500;
   text-shadow: 0 10px 26px rgba(0,0,0,0.35);
-  pointer-events: none;
 }
 
-.carousel__learnMore{
-  pointer-events: auto;
+.hero-carousel__learnMore{
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -511,12 +514,12 @@ a{ color: inherit; text-decoration: none; }
   color: #fff;
   font-weight: 600;
 }
-.carousel__learnMore:hover{
+.hero-carousel__learnMore:hover{
   background: rgba(255,255,255,0.16);
 }
 
 /* nav buttons */
-.carousel__btn{
+.hero-carousel__btn{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -530,12 +533,12 @@ a{ color: inherit; text-decoration: none; }
   line-height: 1;
   cursor: pointer;
 }
-.carousel__btn:hover{ background: rgba(0,0,0,0.36); }
-.carousel__btn--prev{ left: 14px; }
-.carousel__btn--next{ right: 14px; }
+.hero-carousel__btn:hover{ background: rgba(0,0,0,0.36); }
+.hero-carousel__btn--prev{ left: 14px; }
+.hero-carousel__btn--next{ right: 14px; }
 
 /* dots */
-.carousel__dots{
+.hero-carousel__dots{
   position: absolute;
   left: 0;
   right: 0;
@@ -544,7 +547,7 @@ a{ color: inherit; text-decoration: none; }
   justify-content: center;
   gap: 8px;
 }
-.carousel__dot{
+.hero-carousel__dot{
   width: 10px;
   height: 10px;
   border-radius: 999px;
@@ -552,19 +555,17 @@ a{ color: inherit; text-decoration: none; }
   background: rgba(255,255,255,0.22);
   cursor: pointer;
 }
-.carousel__dot.is-active{
-  background: var(--accent);
+.hero-carousel__dot.is-active{
+  background: var(--accent); /* #b01217 유지 */
   border-color: rgba(255,255,255,0.25);
 }
 
 /* responsive */
 @media (max-width: 920px){
-  .carousel__slide{ height: 340px; }
-  .carousel__headline{ font-size: 36px; }
-  .carousel__overlay{ left: 18px; right: 18px; bottom: 18px; }
+  .hero-carousel__overlay{ left: 18px; right: 18px; bottom: 18px; }
+  .hero-carousel__headline{ font-size: 44px; }
 }
 @media (max-width: 520px){
-  .carousel__slide{ height: 300px; }
-  .carousel__headline{ font-size: 30px; }
-  .carousel__paperTitle{ display:none; } /* 모바일에서 박스 과밀 방지 */
+  .hero-carousel__headline{ font-size: 34px; }
+  .hero-carousel__paperTitle{ display:none; }
 }
