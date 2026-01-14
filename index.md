@@ -34,7 +34,7 @@ permalink: /
 
           <div class="hero-carousel__overlay">
             <div class="hero-carousel__paperTitle">
-              Paper Title Placeholder #1: Learning XYZ for ABC
+              Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction, NeurIPS 2025
             </div>
             <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
               Learn more
@@ -49,9 +49,9 @@ permalink: /
 
           <div class="hero-carousel__overlay">
             <div class="hero-carousel__paperTitle">
-              Paper Title Placeholder #2: Object-Centric Representation Learning …
+              Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation, AAAI 2026
             </div>
-            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+            <a class="hero-carousel__learnMore" href="https://visualsciencelab-khu.github.io/OCRL-3DSSG/" target="_blank" rel="noopener">
               Learn more
             </a>
           </div>
@@ -64,7 +64,7 @@ permalink: /
 
           <div class="hero-carousel__overlay">
             <div class="hero-carousel__paperTitle">
-              Paper Title Placeholder #3: Robust Perception under Domain Shift
+              RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection, AAAI 2026
             </div>
             <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
               Learn more
@@ -79,7 +79,7 @@ permalink: /
 
           <div class="hero-carousel__overlay">
             <div class="hero-carousel__paperTitle">
-              Paper Title Placeholder #4: Multimodal Reasoning with …
+              PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking, AAAI 2026
             </div>
             <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
               Learn more
@@ -143,17 +143,17 @@ permalink: /
         <div class="news-body">
           <div class="news-date">January 2026</div>
           <div class="news-text">
-            Three papers led by (Student A), (Student B), and (Student C) have been accepted to AAAI 2026.
+            Three papers led by Taeyeong Kim, Junhee Lee, and Seungjae Kim have been accepted to AAAI 2026.
           </div>
         </div>
       </article>
 
       <article class="news-item">
-        <div class="news-thumb" aria-hidden="true">NIPS</div>
+        <div class="news-thumb" aria-hidden="true">NeurIPS</div>
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            Our paper “Object-Centric Representation Learning …” has been accepted to NeurIPS 2025.
+            Our paper, KH Heo etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to NeurIPS 2025.
           </div>
         </div>
       </article>
@@ -163,7 +163,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            (Student D) has been awarded the NRF “Research Subsidies for Master’s Students” grant. Congratulations!
+            Myoungchul Kim has been awarded the NRF "Research Subsidies for Master’s Students" grant (Annual research budget: 12 million KRW).
           </div>
         </div>
       </article>
@@ -173,7 +173,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">August 2025</div>
           <div class="news-text">
-            Our paper has won the Excellence Award at the Junior Paper Competition from KCC2025. Congratulations!
+            Our paper "Distance-based Bi-directional Edge Update Graph Neural Network for 3D Scene Graph Generation" has won the Excellence Award at the Junior Paper Competition from KCC2025.
           </div>
         </div>
       </article>
@@ -183,7 +183,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">May 2025</div>
           <div class="news-text">
-            Our paper has been accepted to ELSEVIER Pattern Recognition.
+            Our paper has been accepted to ELSEVIER Pattern Recognition (IF: 7.6).
           </div>
         </div>
       </article>
