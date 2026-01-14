@@ -24,8 +24,7 @@ permalink: /
               <a class="inline-link"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdumy7iowdScouDLq62i9QIUTZsFBz3r7YXkZj0eFpPVFygYA/viewform"
                   target="_blank" rel="noopener">
-                  ( Application )
-                </a>
+                  Application</a>
               <a class="btn" href="{{ '/publications/' | relative_url }}">See Publications</a>
             </div>
           </div>
@@ -151,7 +150,8 @@ permalink: /
         <div class="news-body">
           <div class="news-date">January 2026</div>
           <div class="news-text">
-            Three papers led by <strong>Taeyeong Kim</strong>, <strong>Junhee Lee</strong>, and <strong>Seungjae Kim</strong> have been accepted to AAAI 2026.
+            <strong>Three papers</strong> led by Taeyeong Kim, Junhee Lee, and Seungjae Kim have been accepted to
+            <a class="inline-link" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener"><strong>AAAI 2026</strong></a>.
           </div>
         </div>
       </article>
@@ -161,7 +161,8 @@ permalink: /
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            Our paper, <strong>KH Heo</strong> etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to NeurIPS 2025.
+            Our paper, KH Heo etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to
+            <a class="inline-link" href="https://nips.cc/" target="_blank" rel="noopener"><strong>NeurIPS 2025</strong></a>.
           </div>
         </div>
       </article>
@@ -171,7 +172,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            <strong>Myoungchul Kim</strong> has been awarded the NRF "Research Subsidies for Master’s Students" grant (Annual research budget: 12 million KRW).
+            Myoungchul Kim has been awarded the NRF "Research Subsidies for Master’s Students" grant (Annual research budget: 12 million KRW).
           </div>
         </div>
       </article>
@@ -191,13 +192,16 @@ permalink: /
         <div class="news-body">
           <div class="news-date">May 2025</div>
           <div class="news-text">
-            Our paper has been accepted to ELSEVIER Pattern Recognition (IF: 7.6).
+            Our paper has been accepted to ELSEVIER
+            <a class="inline-link" href="https://www.sciencedirect.com/journal/pattern-recognition" target="_blank" rel="noopener"><strong>Pattern Recognition</strong></a>
+            (IF: 7.6).
           </div>
         </div>
       </article>
     </div>
   </div>
 </section>
+
 
 <section class="section">
   <div class="wrap">
