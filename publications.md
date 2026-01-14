@@ -32,11 +32,7 @@ permalink: /publications/
       </article>
 
       <article class="pub-item">
-        <div class="pub-item__title">
-          <a class="pub-link" href="https://visualsciencelab-khu.github.io/RefineVAD/" target="_blank" rel="noopener">
-            RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection
-          </a>
-        </div>
+        <div class="pub-item__title">RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection</div>
         <div class="pub-item__authors">Junhee Lee*, ChaeBeen Bang*, MyoungChul Kim*, MyeongAh Cho</div>
         <div class="pub-item__venue">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), Jan. 2026</div>
       </article>
