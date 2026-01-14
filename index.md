@@ -21,7 +21,11 @@ permalink: /
               enabling machines to perceive the world more like humans do.
             </div>
             <div class="hero-carousel__actions">
-              <a class="btn primary" href="{{ '/contact/' | relative_url }}">Application</a>
+              <a class="inline-link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdumy7iowdScouDLq62i9QIUTZsFBz3r7YXkZj0eFpPVFygYA/viewform"
+                  target="_blank" rel="noopener">
+                  ( Application )
+                </a>
               <a class="btn" href="{{ '/publications/' | relative_url }}">See Publications</a>
             </div>
           </div>
@@ -122,7 +126,11 @@ permalink: /
       <p class="muted">
         We are always looking for self-motivated and passionate <b>PhD/MS students</b>, <b>Postdoc</b>,
         and <b>Undergraduate interns</b> to join our lab.
-        <a class="inline-link" href="{{ '/contact/' | relative_url }}">( Application )</a>
+        <a class="inline-link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdumy7iowdScouDLq62i9QIUTZsFBz3r7YXkZj0eFpPVFygYA/viewform"
+            target="_blank" rel="noopener">
+            ( Application )
+          </a>
       </p>
 
       <a class="see-more" href="{{ '/contact/' | relative_url }}">See more...</a>
@@ -153,7 +161,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">September 2025</div>
           <div class="news-text">
-            Our paper, <strong>KH Heo</strong> etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to <strong>NeurIPS 2025</strong>.
+            Our paper, <strong>KH Heo</strong> etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to NeurIPS 2025.
           </div>
         </div>
       </article>
@@ -173,7 +181,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">August 2025</div>
           <div class="news-text">
-            Our paper "Distance-based Bi-directional Edge Update Graph Neural Network for 3D Scene Graph Generation" has won the Excellence Award at the Junior Paper Competition from <strong>KCC2025</strong>.
+            Our paper "Distance-based Bi-directional Edge Update Graph Neural Network for 3D Scene Graph Generation" has won the Excellence Award at the Junior Paper Competition from KCC2025.
           </div>
         </div>
       </article>
@@ -183,7 +191,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">May 2025</div>
           <div class="news-text">
-            Our paper has been accepted to ELSEVIER <strong>Pattern Recognition (IF: 7.6)</strong>.
+            Our paper has been accepted to ELSEVIER Pattern Recognition (IF: 7.6).
           </div>
         </div>
       </article>
