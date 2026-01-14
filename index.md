@@ -146,7 +146,7 @@ permalink: /
         <div class="news-body">
           <div class="news-date">January 2026</div>
           <div class="news-text">
-            <strong>Three papers</strong> led by Taeyeong Kim, Junhee Lee, and Seungjae Kim have been accepted to
+            <span class="news-highlight"><strong>Three papers</strong> led by Taeyeong Kim, Junhee Lee, and Seungjae Kim have been accepted to
             <a class="inline-link" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener">AAAI 2026</a>.
           </div>
         </div>
@@ -189,7 +189,7 @@ permalink: /
           <div class="news-date">May 2025</div>
           <div class="news-text">
             Our paper has been accepted to ELSEVIER
-            <a class="inline-link" href="https://www.sciencedirect.com/journal/pattern-recognition" target="_blank" rel="noopener">attern Recognition</a>
+            <a class="inline-link" href="https://www.sciencedirect.com/journal/pattern-recognition" target="_blank" rel="noopener">Pattern Recognition</a>
             (IF: 7.6).
           </div>
         </div>
