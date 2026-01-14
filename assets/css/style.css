@@ -728,3 +728,102 @@ a{ color: inherit; text-decoration: none; }
     height: 110px;
   }
 }
+
+/* =========================
+   Publications
+========================= */
+.pub-page .pub-title{
+  margin: 0;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.pub-nav{
+  margin-top: 10px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+.pub-nav__link{
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0,0,0,0.25);
+  text-underline-offset: 2px;
+}
+.pub-nav__link:hover{
+  text-decoration-color: rgba(0,0,0,0.55);
+}
+.pub-nav__sep{ padding: 0 8px; opacity: 0.6; }
+
+.pub-section-title{
+  margin: 0 0 14px 0;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.pub-year{
+  margin: 26px 0 10px 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: #2b2f36;
+}
+
+.pub-list{
+  display: grid;
+  gap: 12px;
+}
+
+.pub-item{
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+}
+
+.pub-item__title{
+  font-weight: 800;
+  line-height: 1.35;
+  margin-bottom: 6px;
+}
+
+.pub-item__authors{
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+.pub-item__venue{
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.pub-link{
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0,0,0,0.25);
+  text-underline-offset: 2px;
+}
+.pub-link:hover{
+  text-decoration-color: rgba(0,0,0,0.55);
+}
+
+/* Patent list */
+.patent-list{
+  margin: 14px 0 0 18px;
+  padding: 0;
+}
+.patent-item{
+  margin: 12px 0;
+}
+.patent-title{
+  font-weight: 800;
+  line-height: 1.4;
+}
+.patent-meta{
+  color: var(--muted);
+  margin-top: 4px;
+}
