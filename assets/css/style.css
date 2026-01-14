@@ -862,8 +862,8 @@ a{ color: inherit; text-decoration: none; }
 
 /* SVG 크기 */
 .pub-icon{
-  width: 16px !important;
-  height: 16px !important;
+  width: 20px !important;
+  height: 20px !important;
   display: block !important;
   fill: currentColor;         /* color로 제어 */
 }
