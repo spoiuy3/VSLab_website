@@ -212,7 +212,7 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">Gi Hyun Kim</div>
+          <div class="profile-name">GiHyun Kim</div>
           <div class="profile-role"></div>
           <div class="profile-email">kimh060612 (at) khu.ac.kr</div>
         </div>
