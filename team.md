@@ -33,7 +33,7 @@ permalink: /team/
     <div class="team-grid">
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/youngbin_kim.jpg' | relative_url }}" alt="Youngbin Kim"
+          <img src="{{ '/assets/img/team/youngbin_kim.jpg' | relative_url }}" alt="YoungBin Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -45,7 +45,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/taeyeong_kim.jpg' | relative_url }}" alt="Taeyeong Kim"
+          <img src="{{ '/assets/img/team/taeyeong_kim.jpg' | relative_url }}" alt="TaeYeong Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -57,7 +57,7 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/myoungchul_kim.jpg' | relative_url }}" alt="Myoung Chul Kim"
+          <img src="{{ '/assets/img/team/myoungchul_kim.jpg' | relative_url }}" alt="MyoungChul Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -78,14 +78,124 @@ permalink: /team/
           <div class="profile-email">hkh7710 (at) khu.ac.kr</div>
         </div>
       </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/wongyu_lee.jpg' | relative_url }}" alt="WonGyu Lee"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">WonGyu Lee</a></div>
+          <div class="profile-role"></div>
+          <div class="profile-email">fovert (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/seungjae_kim.jpg' | relative_url }}" alt="SeungJae Kim"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">SeungJae Kim</a></div>
+          <div class="profile-role"></div>
+          <div class="profile-email">tmdwo8814 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/youngkwan_cho.jpg' | relative_url }}" alt="YoungKwan Cho"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">YoungKwan Cho</a></div>
+          <div class="profile-role"></div>
+          <div class="profile-email">dudrhks1009 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/junhee_lee.jpg' | relative_url }}" alt="JunHee Lee"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">JunHee Lee</a></div>
+          <div class="profile-role"></div>
+          <div class="profile-email">jhlee39 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/suyeon_kim.jpg' | relative_url }}" alt="SuYeon Kim"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name"><a class="profile-link" href="#" target="_blank" rel="noopener">SuYeon Kim</a></div>
+          <div class="profile-role"></div>
+          <div class="profile-email">spoiuy3 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
     </div>
 
     <!-- ===== Undergraduate Interns ===== -->
     <h2 class="team-section-title">Undergraduate Interns</h2>
     <div class="team-grid">
+
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/gihyun_kim.jpg' | relative_url }}" alt="Gi Hyun Kim"
+          <img src="{{ '/assets/img/team/hayoung_lee.jpg' | relative_url }}" alt="HaYoung Lee"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name">Hayoung Lee</div>
+          <div class="profile-role"></div>
+          <div class="profile-email">lhayoung9 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/seungjoon_lee.jpg' | relative_url }}" alt="SeungJoon Lee"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name">SeungJoon Lee</div>
+          <div class="profile-role"></div>
+          <div class="profile-email">diplomat3334 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/chaebeen_bang.jpg' | relative_url }}" alt="ChaeBeen Bang"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name">ChaeBeen Bang</div>
+          <div class="profile-role"></div>
+          <div class="profile-email">coqls1229 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/useok_choi.jpg' | relative_url }}" alt="USeok Choi"
+               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
+        </div>
+        <div class="profile-body">
+          <div class="profile-name">USeok Choi</div>
+          <div class="profile-role"></div>
+          <div class="profile-email">thom08 (at) khu.ac.kr</div>
+        </div>
+      </article>
+
+      <article class="profile">
+        <div class="profile-photo">
+          <img src="{{ '/assets/img/team/gihyun_kim.jpg' | relative_url }}" alt="GiHyun Kim"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -97,62 +207,30 @@ permalink: /team/
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/wongyu_lee.jpg' | relative_url }}" alt="Wongyu Lee"
+          <img src="{{ '/assets/img/team/chanse_oh.jpg' | relative_url }}" alt="ChanSe Oh"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">Wongyu Lee</div>
+          <div class="profile-name">ChanSe Oh</div>
           <div class="profile-role"></div>
-          <div class="profile-email">fovert (at) khu.ac.kr</div>
+          <div class="profile-email">chanse0727 (at) khu.ac.kr</div>
         </div>
       </article>
 
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/junhee_lee.jpg' | relative_url }}" alt="Junhee Lee"
+          <img src="{{ '/assets/img/team/yonghyun_gwon.jpg' | relative_url }}" alt="YongHyun Gwon"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-name">Junhee Lee</div>
+          <div class="profile-name">YongHyun Gwon</div>
           <div class="profile-role"></div>
-          <div class="profile-email">jhlee39 (at) khu.ac.kr</div>
+          <div class="profile-email">mathewgwon (at) khu.ac.kr</div>
         </div>
       </article>
-
-      <article class="profile">
-        <div class="profile-photo">
-          <img src="{{ '/assets/img/team/seungjae_kim.jpg' | relative_url }}" alt="Seungjae Kim"
-               onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
-        </div>
-        <div class="profile-body">
-          <div class="profile-name">Seungjae Kim</div>
-          <div class="profile-role"></div>
-          <div class="profile-email">tmdwo8814 (at) gmail.com</div>
-        </div>
-      </article>
-    </div>
 
     <!-- ===== Alumni ===== -->
     <h2 class="team-section-title">Alumni</h2>
-    <div class="team-grid">
-      <article class="profile">
-        <div class="profile-photo is-empty"></div>
-        <div class="profile-body">
-          <div class="profile-name">Alumni Name</div>
-          <div class="profile-role">MS (2025) · Current: Company/Institute</div>
-          <div class="profile-email">alumni (at) email.com</div>
-        </div>
-      </article>
-
-      <article class="profile">
-        <div class="profile-photo is-empty"></div>
-        <div class="profile-body">
-          <div class="profile-name">Alumni Name</div>
-          <div class="profile-role">Intern (2024) · Current: Company/Institute</div>
-          <div class="profile-email">alumni (at) email.com</div>
-        </div>
-      </article>
-    </div>
 
   </div>
 </section>
