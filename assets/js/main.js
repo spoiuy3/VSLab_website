@@ -1,9 +1,6 @@
 (function () {
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector("#site-nav");
-  const year = document.querySelector("#year");
-
-  if (year) year.textContent = new Date().getFullYear();
 
   if (!toggle || !nav) return;
 
@@ -13,7 +10,6 @@
     toggle.setAttribute("aria-label", isOpen ? "메뉴 닫기" : "메뉴 열기");
   });
 
-  // 바깥 클릭 시 닫기
   document.addEventListener("click", (e) => {
     const t = e.target;
     if (!(t instanceof Element)) return;
