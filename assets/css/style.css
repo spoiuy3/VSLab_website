@@ -1,14 +1,16 @@
 :root{
   --bg: #ffffff;
   --alt: #f6f7f9;
-  --text: #202124;   /* Google 스타일 */
+  --text: #202124;
   --muted: #5f6368;
   --line: rgba(0,0,0,0.10);
   --shadow: 0 8px 24px rgba(0,0,0,0.08);
 
-  --accent: #b01217;     /* VSLab 로고/포인트 느낌의 레드 톤(유사) */
+  --accent: #b01217;
   --accent-weak: rgba(176,18,23,0.10);
-  --carousel-dots-safe: 44px; /* dots 공간 + 여유 */
+
+  /* dots 공간 + 여유 */
+  --carousel-dots-safe: 44px;
 }
 
 *{ box-sizing: border-box; }
@@ -26,7 +28,9 @@ a{ color: inherit; text-decoration: none; }
   margin: 0 auto;
 }
 
-/* Top notice */
+/* =========================
+   Top notice
+========================= */
 .top-notice{
   background: #111;
   color: #fff;
@@ -49,7 +53,9 @@ a{ color: inherit; text-decoration: none; }
   border-color: rgba(255,255,255,0.6);
 }
 
-/* Header */
+/* =========================
+   Header
+========================= */
 .site-header{
   position: sticky;
   top: 0;
@@ -58,6 +64,7 @@ a{ color: inherit; text-decoration: none; }
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
+
 .header__inner{
   display:flex;
   align-items:center;
@@ -71,26 +78,33 @@ a{ color: inherit; text-decoration: none; }
   align-items:center;
   gap: 12px;
 }
-.brand__logo{
+
+/* ✅ 이미지 로고 버전(brand__mark)만 사용 권장 */
+.brand__mark{
   width: 42px;
   height: 42px;
   border-radius: 12px;
+
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  background: var(--accent);
-  color: #fff;
-  font-weight: 800;
-  letter-spacing: 0.5px;
+
+  background: #fff;
+  border: 1px solid var(--line);
 }
+.brand__mark-img{
+  width: 30px;
+  height: 30px;
+  display: block;
+  object-fit: contain;
+}
+
 .brand__text{
   display:flex;
   flex-direction: column;
   line-height: 1.1;
 }
-.brand__title{
-  font-weight: 700;
-}
+.brand__title{ font-weight: 700; }
 .brand__sub{
   font-size: 12px;
   color: var(--muted);
@@ -129,68 +143,10 @@ a{ color: inherit; text-decoration: none; }
   cursor: pointer;
 }
 
-/* Hero */
-.hero{
-  padding: 46px 0 26px;
-  border-bottom: 1px solid var(--line);
-}
-.hero__inner{
-  display:grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 22px;
-  align-items: center;
-}
-.hero__kicker{
-  font-size: 12px;
-  letter-spacing: 0.18em;
-  color: var(--muted);
-}
-.hero__title{
-  margin: 8px 0 10px;
-  font-size: 44px;
-  line-height: 1.08;
-}
-.hero__desc{
-  margin: 0;
-  color: var(--muted);
-  font-size: 16px;
-  line-height: 1.7;
-  max-width: 62ch;
-}
-.hero__actions{
-  margin-top: 16px;
-  display:flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-.hero__image{
-  height: 280px;
-  border-radius: 18px;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  background:
-    radial-gradient(900px 300px at 30% 20%, rgba(176,18,23,0.18), transparent 60%),
-    radial-gradient(700px 260px at 80% 60%, rgba(0,0,0,0.10), transparent 55%),
-    linear-gradient(180deg, #ffffff, #f2f3f6);
-  position: relative;
-  overflow: hidden;
-}
-.hero__imageBadge{
-  position:absolute;
-  bottom: 14px;
-  right: 14px;
-  font-size: 12px;
-  color: var(--muted);
-  background: rgba(255,255,255,0.85);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 6px 10px;
-}
-
-/* Sections */
-.section{
-  padding: 34px 0;
-}
+/* =========================
+   Basic sections / cards
+========================= */
+.section{ padding: 34px 0; }
 .section.alt{
   background: var(--alt);
   border-top: 1px solid var(--line);
@@ -224,9 +180,7 @@ a{ color: inherit; text-decoration: none; }
   box-shadow: var(--shadow);
   padding: 18px;
 }
-.callout{
-  padding: 22px;
-}
+.callout{ padding: 22px; }
 .quote{
   margin: 0 0 14px 0;
   padding-left: 14px;
@@ -235,10 +189,8 @@ a{ color: inherit; text-decoration: none; }
   font-size: 16px;
   line-height: 1.75;
 }
-.muted{
-  color: var(--muted);
-  line-height: 1.75;
-}
+.muted{ color: var(--muted); line-height: 1.75; }
+
 .inline-link{
   color: var(--accent);
   font-weight: 500;
@@ -253,10 +205,7 @@ a{ color: inherit; text-decoration: none; }
 }
 .see-more:hover{ text-decoration: underline; }
 
-.h3{
-  margin: 0 0 10px 0;
-  font-size: 18px;
-}
+.h3{ margin: 0 0 10px 0; font-size: 18px; }
 
 .btn{
   display:inline-flex;
@@ -269,19 +218,17 @@ a{ color: inherit; text-decoration: none; }
   font-size: 14px;
   cursor: pointer;
 }
-.btn:hover{
-  border-color: rgba(0,0,0,0.22);
-}
+.btn:hover{ border-color: rgba(0,0,0,0.22); }
 .btn.primary{
   border-color: rgba(176,18,23,0.30);
   background: var(--accent);
   color: #fff;
 }
-.btn.primary:hover{
-  filter: brightness(0.97);
-}
+.btn.primary:hover{ filter: brightness(0.97); }
 
-/* News list */
+/* =========================
+   News list
+========================= */
 .news{
   display:flex;
   flex-direction: column;
@@ -316,12 +263,22 @@ a{ color: inherit; text-decoration: none; }
   color: var(--muted);
   margin-bottom: 6px;
 }
-.news-text{
-  color: var(--text);
-  line-height: 1.6;
+.news-text{ color: var(--text); line-height: 1.6; }
+
+/* ✅ News 안의 링크는 포인트색 안 쓰고 본문색 유지 */
+.news .news-text a{
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0,0,0,0.35);
+  text-underline-offset: 2px;
+}
+.news .news-text a:hover{
+  text-decoration-color: rgba(0,0,0,0.65);
 }
 
-/* Research banner */
+/* =========================
+   Research banner
+========================= */
 .research-banner{
   height: 220px;
   border-radius: 18px;
@@ -346,14 +303,15 @@ a{ color: inherit; text-decoration: none; }
   border-radius: 999px;
   padding: 6px 10px;
 }
-
 .grid3{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
-/* Footer */
+/* =========================
+   Footer
+========================= */
 .site-footer{
   border-top: 1px solid var(--line);
   background: #fff;
@@ -365,15 +323,12 @@ a{ color: inherit; text-decoration: none; }
   gap: 10px;
   justify-content: space-between;
 }
-.small{
-  font-size: 13px;
-  color: var(--muted);
-}
+.small{ font-size: 13px; color: var(--muted); }
 
-/* Responsive */
+/* =========================
+   Responsive (header + grid)
+========================= */
 @media (max-width: 920px){
-  .hero__inner{ grid-template-columns: 1fr; }
-  .hero__image{ height: 240px; }
   .grid3{ grid-template-columns: 1fr; }
 }
 @media (max-width: 860px){
@@ -396,7 +351,13 @@ a{ color: inherit; text-decoration: none; }
   .nav-link{ width: 100%; }
 }
 
-/* ===== HERO CAROUSEL (single-box, no stacking) ===== */
+/* ==========================================================
+   HERO CAROUSEL (final, cleaned)
+   - Slide 1: cover + shade + minimal overlay
+   - Slide 2~5 (.slide--contain): contain + white bg + shade off
+   - Overlay for slide 2~5 stays LEFT title / RIGHT button
+   - Overlay never touches dots
+========================================================== */
 .hero--carousel{
   padding: 22px 0 10px;
   border-bottom: 1px solid var(--line);
@@ -405,23 +366,14 @@ a{ color: inherit; text-decoration: none; }
 .hero-carousel__viewport{
   position: relative;
   border-radius: 18px;
-
-  /* ✅ 테두리 덜 튀게: 더 연한 회색 + 약간 투명 */
   border: 1px solid rgba(0,0,0,0.06);
-
-  /* ✅ 그림자도 살짝만 (원하면 더 약하게 가능) */
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-
   overflow: hidden;
-
-  /* ✅ 슬라이드 2~5가 흰 배경이라, viewport 자체도 흰색이 더 자연스러움 */
   background: #fff;
-
   height: clamp(320px, 48vw, 520px);
 }
 
-
-/* slides are stacked absolutely -> only active is visible */
+/* slides stacked */
 .hero-carousel__slide{
   position: absolute;
   inset: 0;
@@ -434,14 +386,15 @@ a{ color: inherit; text-decoration: none; }
   pointer-events: auto;
 }
 
+/* image default (Slide 1) */
 .hero-carousel__img{
   width: 100%;
   height: 100%;
-  object-fit: cover;      /* 핵심: 박스에 맞게 자동 크롭/조절 */
   display: block;
+  object-fit: cover;
 }
 
-/* dark shade for text readability */
+/* shade (Slide 1 기본) */
 .hero-carousel__shade{
   position: absolute;
   inset: 0;
@@ -453,6 +406,7 @@ a{ color: inherit; text-decoration: none; }
   );
 }
 
+/* overlay base (Slide 1 기준) */
 .hero-carousel__overlay{
   position: absolute;
   left: 26px;
@@ -476,7 +430,6 @@ a{ color: inherit; text-decoration: none; }
   letter-spacing: 0.18em;
   color: rgba(255,255,255,0.85);
 }
-
 .hero-carousel__headline{
   font-size: 58px;
   font-weight: 800;
@@ -484,62 +437,74 @@ a{ color: inherit; text-decoration: none; }
   color: #fff;
   text-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
-
 .hero-carousel__sub{
   max-width: 70ch;
   color: rgba(255,255,255,0.88);
   line-height: 1.7;
   text-shadow: 0 10px 26px rgba(0,0,0,0.35);
 }
-
 .hero-carousel__actions{
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-/* paper title box + learn more */
+/* paper title */
 .hero-carousel__paperTitle{
   max-width: 72ch;
   padding: 12px 14px;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.28);
-  background: rgba(0,0,0,0.62); /* ✅ 더 어둡게(=투명도 낮아짐) */
-  border-color: rgba(255,255,255,0.22);
+  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(0,0,0,0.62);
   color: #fff;
   line-height: 1.5;
   font-weight: 500;
   text-shadow: 0 10px 26px rgba(0,0,0,0.35);
 }
 
+/* Learn more button (accent) */
 .hero-carousel__learnMore{
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 10px 14px;
   border-radius: 999px;
-
-  /* ✅ VSLab 포인트 컬러 */
   background: var(--accent);
   border: 1px solid rgba(176,18,23,0.35);
-
-  /* ✅ 텍스트는 흰색 고정 */
   color: #fff;
   font-weight: 700;
   letter-spacing: 0.2px;
-
   box-shadow: 0 8px 18px rgba(176,18,23,0.18);
 }
+.hero-carousel__learnMore:hover{ filter: brightness(0.95); }
+.hero-carousel__learnMore:active{ transform: translateY(1px); }
 
-.hero-carousel__learnMore:hover{
-  filter: brightness(0.95);
+/* Slide 2~5: contain + white bg */
+.hero-carousel__slide--contain{
+  background: #fff;
+}
+.hero-carousel__slide--contain .hero-carousel__img{
+  object-fit: contain;
+  background: #fff;
+}
+.hero-carousel__slide--contain .hero-carousel__shade{
+  display: none;
 }
 
-.hero-carousel__learnMore:active{
-  transform: translateY(1px);
+/* ✅ Slide 2~5 overlay: LEFT title / RIGHT button, and never touch dots */
+.hero-carousel__slide--contain .hero-carousel__overlay{
+  bottom: calc(var(--carousel-dots-safe) + 16px);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-
+.hero-carousel__slide--contain .hero-carousel__paperTitle{
+  max-width: min(76ch, 72%);
+  margin: 0;
+}
 .hero-carousel__slide--contain .hero-carousel__learnMore{
+  flex: 0 0 auto;
+  align-self: flex-end;
   border-color: rgba(176,18,23,0.45);
 }
 
@@ -572,122 +537,30 @@ a{ color: inherit; text-decoration: none; }
   justify-content: center;
   gap: 8px;
 }
-
 .hero-carousel__dot{
   width: 10px;
   height: 10px;
   border-radius: 999px;
-
-  /* ✅ 테두리 제거 */
   border: none;
-
-  /* ✅ 기본 내부 색상: 진한 회색(흰 배경에서도 잘 보임) */
   background: rgba(0,0,0,0.55);
-
   cursor: pointer;
-
-  /* ✅ 흰 배경에서 묻히지 않게 아주 약한 그림자 */
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-
-  /* 클릭/호버 느낌 살짝 */
   transition: transform 120ms ease, background 120ms ease, opacity 120ms ease;
   opacity: 0.9;
 }
-
-.hero-carousel__dot:hover{
-  transform: scale(1.12);
-  opacity: 1;
-}
-
+.hero-carousel__dot:hover{ transform: scale(1.12); opacity: 1; }
 .hero-carousel__dot.is-active{
-  /* ✅ 활성 dot은 VSLab 포인트 컬러 유지 */
   background: var(--accent);
   opacity: 1;
   transform: scale(1.12);
 }
 
-
-/* responsive */
+/* carousel responsive */
 @media (max-width: 920px){
-  .hero-carousel__overlay{ left: 18px; right: 18px; bottom: 18px; }
+  .hero-carousel__overlay{ left: 18px; right: 18px; }
   .hero-carousel__headline{ font-size: 44px; }
 }
 @media (max-width: 520px){
   .hero-carousel__headline{ font-size: 34px; }
   .hero-carousel__paperTitle{ display:none; }
-}
-
-/* ===== Slides 2~5: show full image + white letterbox ===== */
-.hero-carousel__slide--contain{
-  background: #fff; /* 남는 빈 공간 흰색 */
-}
-
-/* 투명 PNG도 흰 배경 위에 올리기 */
-.hero-carousel__slide--contain .hero-carousel__img{
-  object-fit: contain;     /* 핵심: 이미지 전체를 박스 안에 */
-  background: #fff;        /* 이미지 자체 배경도 흰색 */
-}
-
-/* 2~5번은 '빈 공간이 흰색'이어야 하니 어두운 쉐이드는 제거 */
-.hero-carousel__slide--contain .hero-carousel__shade{
-  display: none;
-}
-
-.news .news-text a{
-  color: inherit;
-  text-decoration: underline;                 /* 링크임은 표시 */
-  text-decoration-color: rgba(0,0,0,0.35);
-  text-underline-offset: 2px;
-}
-
-.news .news-text a:hover{
-  text-decoration-color: rgba(0,0,0,0.65);
-}
-
-/* Slide 2~5: 왼쪽 제목 / 오른쪽 Learn more 유지 + dots와 절대 닿지 않게 */
-.hero-carousel__slide--contain .hero-carousel__overlay{
-  left: 26px;
-  right: 26px;
-
-  /* ✅ overlay 기준점은 아래(=bottom). 내용이 길어지면 위로 커짐 */
-  bottom: calc(var(--carousel-dots-safe, 44px) + 16px);
-
-  display: flex;
-  flex-direction: row;          /* ✅ 좌/우 배치 */
-  align-items: flex-end;        /* ✅ 버튼과 제목 하단 정렬 */
-  justify-content: space-between;
-  gap: 14px;
-}
-
-/* 제목 박스는 왼쪽에서 넓게 쓰되, 너무 길면 여러 줄로 wrap */
-.hero-carousel__slide--contain .hero-carousel__paperTitle{
-  max-width: min(76ch, 72%);    /* ✅ 오른쪽 버튼 공간 남기기 */
-  margin: 0;                    /* 불필요 여백 방지 */
-}
-
-/* 버튼은 항상 오른쪽 아래에 고정 느낌 */
-.hero-carousel__slide--contain .hero-carousel__learnMore{
-  flex: 0 0 auto;
-  align-self: flex-end;
-}
-
-.brand__mark{
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  /* ✅ 투명 PNG도 깔끔하게: 흰 배경 + 연한 테두리 */
-  background: #fff;
-  border: 1px solid var(--line);
-}
-
-.brand__mark-img{
-  width: 30px;     /* 로고 크기 (원하면 28~34로 조절) */
-  height: 30px;
-  display: block;
-  object-fit: contain;
 }

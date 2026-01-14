@@ -148,7 +148,7 @@ permalink: /
           <div class="news-date">January 2026</div>
           <div class="news-text">
             <strong>Three papers</strong> led by Taeyeong Kim, Junhee Lee, and Seungjae Kim have been accepted to
-            <a class="inline-link" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener"><strong>AAAI 2026</strong></a>.
+            <a class="inline-link" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener">AAAI 2026</a>.
           </div>
         </div>
       </article>
@@ -159,7 +159,7 @@ permalink: /
           <div class="news-date">September 2025</div>
           <div class="news-text">
             Our paper, KH Heo etal. "Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction," has been accepted to
-            <a class="inline-link" href="https://nips.cc/" target="_blank" rel="noopener"><strong>NeurIPS 2025</strong></a>.
+            <a class="inline-link" href="https://nips.cc/" target="_blank" rel="noopener">NeurIPS 2025</a>.
           </div>
         </div>
       </article>
@@ -190,7 +190,7 @@ permalink: /
           <div class="news-date">May 2025</div>
           <div class="news-text">
             Our paper has been accepted to ELSEVIER
-            <a class="inline-link" href="https://www.sciencedirect.com/journal/pattern-recognition" target="_blank" rel="noopener"><strong>Pattern Recognition</strong></a>
+            <a class="inline-link" href="https://www.sciencedirect.com/journal/pattern-recognition" target="_blank" rel="noopener">attern Recognition</a>
             (IF: 7.6).
           </div>
         </div>
