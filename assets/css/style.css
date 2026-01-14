@@ -680,3 +680,108 @@ a{ color: inherit; text-decoration: none; }
   .profile-photo{ width: 110px; height: 110px; }
   .team-page .team-title{ font-size: 36px; }
 }
+
+/* =========================
+   Team spacing polish (override)
+========================= */
+
+/* Team 페이지에서만 섹션 패딩을 조금 줄여서 덩어리 간격 자연스럽게 */
+.team-page.section{
+  padding: 26px 0;
+}
+.team-page.section.alt{
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* 섹션 타이틀 간격 정리 */
+.team-page .team-title{
+  margin: 0;
+}
+.team-page .team-section-title{
+  margin: 0 0 18px 0;
+  letter-spacing: 0.2px;
+}
+
+/* 2열 그리드 간격을 “적당히” (현재 70px은 조금 큼) */
+.team-page .team-grid{
+  column-gap: 52px;
+  row-gap: 28px;
+}
+
+/* PI 영역은 1열 유지 + 너무 휑하면 폭 제한 */
+.team-page .team-grid--pi{
+  max-width: 860px;
+}
+
+/* 프로필 내부(사진-텍스트) 간격/정렬 */
+.team-page .profile{
+  grid-template-columns: 140px 1fr;  /* 160 → 140로 줄여서 덜 휑하게 */
+  gap: 20px;
+  align-items: center;
+}
+
+/* 사진 크기 살짝 줄여서 전체 밸런스 맞추기 */
+.team-page .profile-photo{
+  width: 140px;
+  height: 140px;
+}
+
+/* PI만 사진을 조금 더 크게 하고 싶으면(선택) */
+/*
+.team-page .team-grid--pi .profile-photo{
+  width: 160px;
+  height: 160px;
+}
+.team-page .team-grid--pi .profile{
+  grid-template-columns: 160px 1fr;
+}
+*/
+
+/* 텍스트 타이포 간격 */
+.team-page .profile-name{
+  font-size: 20px;
+  line-height: 1.25;
+}
+.team-page .profile-role{
+  margin-top: 6px;
+  font-size: 15px;
+}
+.team-page .profile-email{
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* 뱃지(랩 매니저)도 조금 덜 튀게 */
+.team-page .profile-badge{
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.08);
+}
+
+/* 반응형에서도 보기 좋게 */
+@media (max-width: 960px){
+  .team-page .team-grid{
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+  .team-page .profile{
+    grid-template-columns: 130px 1fr;
+  }
+  .team-page .profile-photo{
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 520px){
+  .team-page .profile{
+    grid-template-columns: 110px 1fr;
+    gap: 16px;
+  }
+  .team-page .profile-photo{
+    width: 110px;
+    height: 110px;
+  }
+}

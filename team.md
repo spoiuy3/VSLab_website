@@ -253,14 +253,6 @@ permalink: /team/
     <!-- Alumni는 너가 나중에 추가 -->
     <div class="team-grid">
       <!-- 예시 -->
-      <article class="profile">
-        <div class="profile-photo is-empty"></div>
-        <div class="profile-body">
-          <div class="profile-name">Alumni Name</div>
-          <div class="profile-role">MS (2025) · Current: Company/Institute</div>
-          <div class="profile-email">alumni (at) email.com</div>
-        </div>
-      </article>
     </div>
   </div>
 </section>
