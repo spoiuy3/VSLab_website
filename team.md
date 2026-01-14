@@ -218,7 +218,7 @@ permalink: /team/
     <div class="team-grid">
       <article class="profile">
         <div class="profile-photo">
-          <img src="{{ '/assets/img/team/hayoung_lee.png' | relative_url }}" alt="HaYoung Lee"
+          <img src="{{ '/assets/img/team/hayoung_lee.png' | relative_url }}" alt="Hayoung Lee"
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
@@ -226,7 +226,7 @@ permalink: /team/
             <a class="profile-link"
               href="https://carpal-money-c50.notion.site/Hayoung-Lee-cb5c3a0ec0ed4e1c9d63b9a43a1e689e"
               target="_blank" rel="noopener">
-              HaYoung Lee
+              Hayoung Lee
             </a>
           </div>
           <div class="profile-role"></div>
