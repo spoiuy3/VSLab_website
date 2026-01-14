@@ -47,7 +47,6 @@ permalink: /team/
                onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');">
         </div>
         <div class="profile-body">
-          <div class="profile-body">
           <div class="profile-name">
             <a class="profile-link"
               href="https://important-chance-a71.notion.site/a73a2f659e9e4d4f90518a6685cc574a"
