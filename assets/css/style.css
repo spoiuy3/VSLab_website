@@ -1041,3 +1041,35 @@ html{
 .pub-btn:hover{
   background: rgba(176,18,23,0.12);
 }
+
+.pub-actions{
+  display: inline-flex;
+  gap: 8px;
+  margin-left: 10px;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.pub-btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 12px;
+  border-radius: 999px;
+
+  border: 1px solid rgba(0,0,0,0.14);
+  background: #2f2f2f;
+  color: #fff;
+
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pub-btn:hover{ filter: brightness(1.10); }
+
+.pub-btn__icon i{
+  font-size: 14px;
+  line-height: 1;
+}

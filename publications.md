@@ -31,9 +31,26 @@ permalink: /publications/
           <div class="pub-item__title">
             Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation
             <span class="pub-actions">
-              <a class="pub-btn" href="https://arxiv.org/abs/2511.22948" target="_blank" rel="noopener">Paper</a>
-              <a class="pub-btn" href="https://visualsciencelab-khu.github.io//FLEXSeg_project/" target="_blank" rel="noopener">Project</a>
-              <a class="pub-btn" href="https://github.com/VisualScienceLab-KHU/FLEX-Seg" target="_blank" rel="noopener">Code</a>
+              <a class="pub-btn pub-btn--paper"
+                href="https://arxiv.org/abs/2511.22948"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-regular fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+
+              <a class="pub-btn pub-btn--project"
+                href="https://visualsciencelab-khu.github.io//FLEXSeg_project/"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <span>Project</span>
+              </a>
+
+              <a class="pub-btn pub-btn--code"
+                href="https://github.com/VisualScienceLab-KHU/FLEX-Seg"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-brands fa-github"></i></span>
+                <span>Code</span>
+              </a>
             </span>
           </div>
         </div>
@@ -46,12 +63,30 @@ permalink: /publications/
           <div class="pub-item__title">
             RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection
             <span class="pub-actions">
-              <a class="pub-btn" href="https://arxiv.org/abs/2511.13204" target="_blank" rel="noopener">Paper</a>
-              <a class="pub-btn" href="https://visualsciencelab-khu.github.io/RefineVAD-project/" target="_blank" rel="noopener">Project</a>
-              <a class="pub-btn" href="https://github.com/VisualScienceLab-KHU/RefineVAD" target="_blank" rel="noopener">Code</a>
+              <a class="pub-btn pub-btn--paper"
+                href="https://arxiv.org/abs/2511.13204"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-regular fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+
+              <a class="pub-btn pub-btn--project"
+                href="https://visualsciencelab-khu.github.io/RefineVAD-project/"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <span>Project</span>
+              </a>
+
+              <a class="pub-btn pub-btn--code"
+                href="https://github.com/VisualScienceLab-KHU/RefineVAD"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-brands fa-github"></i></span>
+                <span>Code</span>
+              </a>
             </span>
           </div>
         </div>
+          
         <div class="pub-item__authors">Junhee Lee*, ChaeBeen Bang*, MyoungChul Kim*, MyeongAh Cho</div>
         <div class="pub-item__venue">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), Jan. 2026</div>
       </article>
@@ -61,9 +96,26 @@ permalink: /publications/
           <div class="pub-item__title">
             PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking
             <span class="pub-actions">
-              <a class="pub-btn" href="https://arxiv.org/abs/2511.13105" target="_blank" rel="noopener">Paper</a>
-              <a class="pub-btn" href="https://visualsciencelab-khu.github.io/PlugTrack_project/" target="_blank" rel="noopener">Project</a>
-              <a class="pub-btn" href="https://github.com/VisualScienceLab-KHU/PlugTrack" target="_blank" rel="noopener">Code</a>
+              <a class="pub-btn pub-btn--paper"
+                href="https://arxiv.org/abs/2511.13105"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-regular fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+
+              <a class="pub-btn pub-btn--project"
+                href="https://visualsciencelab-khu.github.io/PlugTrack_project/"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <span>Project</span>
+              </a>
+
+              <a class="pub-btn pub-btn--code"
+                href="https://github.com/VisualScienceLab-KHU/PlugTrack"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-brands fa-github"></i></span>
+                <span>Code</span>
+              </a>
             </span>
           </div>
         </div>
@@ -80,9 +132,26 @@ permalink: /publications/
           <div class="pub-item__title">
             Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction
             <span class="pub-actions">
-              <a class="pub-btn" href="https://arxiv.org/abs/2510.04714" target="_blank" rel="noopener">Paper</a>
-              <a class="pub-btn" href="https://visualsciencelab-khu.github.io/OCRL-3DSSG/" target="_blank" rel="noopener">Project</a>
-              <a class="pub-btn" href="https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes" target="_blank" rel="noopener">Code</a>
+              <a class="pub-btn pub-btn--paper"
+                href="https://arxiv.org/abs/2510.04714"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-regular fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+
+              <a class="pub-btn pub-btn--project"
+                href="https://visualsciencelab-khu.github.io/OCRL-3DSSG/"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <span>Project</span>
+              </a>
+
+              <a class="pub-btn pub-btn--code"
+                href="https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes"
+                target="_blank" rel="noopener">
+                <span class="pub-btn__icon"><i class="fa-brands fa-github"></i></span>
+                <span>Code</span>
+              </a>
             </span>
           </div>
         </div>
