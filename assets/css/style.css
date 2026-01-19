@@ -1015,3 +1015,29 @@ html{
   max-height: calc(100% - var(--overlay-safe));
   top: calc(50% - (var(--overlay-safe) / 2));
 }
+/* Publications: Paper / Project / Code buttons */
+.pub-actions{
+  display: inline-flex;
+  gap: 6px;
+  margin-left: 8px;     /* 제목과 버튼 간격 */
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.pub-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(176,18,23,0.06);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pub-btn:hover{
+  background: rgba(176,18,23,0.12);
+}
