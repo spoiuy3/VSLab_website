@@ -979,3 +979,39 @@ html{
   font-size: 12px;
   line-height: 1.2;
 }
+
+/* 2~5: 이미지가 박스 경계 밖으로 절대 안 나가게 */
+.hero-carousel__slide--contain{
+  background: #fff;
+}
+
+/* 이미지: absolute로 박스 안에 "딱" 맞춰서 contain */
+.hero-carousel__slide--contain .hero-carousel__img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* ✅ 박스 안에서만 최대 크기 */
+  max-width: 100%;
+  max-height: 100%;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+  object-position: center;
+
+  background: #fff;
+}
+
+/* overlay-safe(아래 박스 공간 확보)를 쓰고 있다면,
+   이미지가 그 영역을 침범하지 않도록 max-height를 줄임 */
+.hero-carousel__slide--contain{
+  --overlay-safe: 92px; /* 네가 쓰는 값과 동일하게 */
+}
+
+.hero-carousel__slide--contain .hero-carousel__img{
+  max-height: calc(100% - var(--overlay-safe));
+  top: calc(50% - (var(--overlay-safe) / 2));
+}
