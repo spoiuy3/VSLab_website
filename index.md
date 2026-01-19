@@ -51,7 +51,7 @@ permalink: /
             <div class="hero-carousel__paperTitle">
               Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation, AAAI 2026
             </div>
-            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+            <a class="hero-carousel__learnMore" href="https://visualsciencelab-khu.github.io//FLEXSeg_project/" target="_blank" rel="noopener">
               Learn more
             </a>
           </div>
@@ -66,7 +66,7 @@ permalink: /
             <div class="hero-carousel__paperTitle">
               RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection, AAAI 2026
             </div>
-            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+            <a class="hero-carousel__learnMore" href="https://visualsciencelab-khu.github.io/RefineVAD-project/" target="_blank" rel="noopener">
               Learn more
             </a>
           </div>
@@ -81,7 +81,7 @@ permalink: /
             <div class="hero-carousel__paperTitle">
               PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking, AAAI 2026
             </div>
-            <a class="hero-carousel__learnMore" href="https://spoiuy3.github.io/VSLab_website/" target="_blank" rel="noopener">
+            <a class="hero-carousel__learnMore" href="https://visualsciencelab-khu.github.io/PlugTrack_project/" target="_blank" rel="noopener">
               Learn more
             </a>
           </div>
