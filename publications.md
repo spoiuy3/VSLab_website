@@ -90,10 +90,6 @@ permalink: /publications/
         <div class="pub-item__authors">KunHo Heo*, GiHyun Kim*, SuYeon Kim, MyeongAh Cho</div>
         <div class="pub-item__venue">The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025), Dec. 2025</div>
       </article>
-    </div>
-  </div>
-</section>
-
 
       <article class="pub-item">
         <div class="pub-item__title">Adaptive Grid Selection Training Strategy for Tiny Object Detection</div>
