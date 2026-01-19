@@ -913,3 +913,22 @@ html{
 @supports not (scrollbar-gutter: stable){
   html{ overflow-y: scroll; } /* 항상 세로 스크롤바 영역을 확보 */
 }
+
+/* 슬라이드 2~5: 오버레이(제목+버튼) 높이만큼 이미지 영역을 위로 올려서 겹침 방지 */
+.hero-carousel__slide--contain{
+  --overlay-safe: 86px; /* 제목+버튼이 차지하는 안전 높이 (필요시 70~110 조절) */
+}
+
+/* 이미지 자체를 안전영역만큼 위로 올려서 표시(=아래쪽 공간 비워둠) */
+.hero-carousel__slide--contain .hero-carousel__img{
+  height: calc(100% - var(--overlay-safe));
+  margin-bottom: var(--overlay-safe);
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+}
+
+/* 오버레이는 항상 아래에 고정 */
+.hero-carousel__slide--contain .hero-carousel__overlay{
+  bottom: 18px;   /* 원하면 14~22에서 조절 */
+}
