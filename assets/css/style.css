@@ -932,3 +932,50 @@ html{
 .hero-carousel__slide--contain .hero-carousel__overlay{
   bottom: 18px;   /* 원하면 14~22에서 조절 */
 }
+
+/* ===== Team: name + link icon ===== */
+.team-page .profile-name-row{
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;              /* 이름과 아이콘 붙이기 */
+}
+
+.team-page .profile-icon-link{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(176,18,23,0.55);   /* 기본 연한 VSLab 톤 */
+  line-height: 1;
+  transform: translateY(1px);    /* 베이스라인 미세 조정 */
+}
+
+.team-page .profile-icon-link:hover{
+  color: var(--accent);          /* hover 시 진하게 */
+}
+
+.team-page .profile-icon{
+  width: 18px;                   /* 텍스트와 비슷하게: 18~20 추천 */
+  height: 18px;
+  display: block;
+  fill: currentColor;            /* 색은 링크의 color 따라감 */
+}
+
+/* ===== Team: research tags ===== */
+.team-page .profile-research{
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.team-page .profile-tag{
+  display: inline-flex;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(0,0,0,0.04);
+  color: #444;
+  font-size: 12px;
+  line-height: 1.2;
+}
