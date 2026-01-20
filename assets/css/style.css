@@ -1058,3 +1058,8 @@ html{ scrollbar-gutter: stable; }
 
   z-index: 5 !important;
 }
+
+/* Slide 2~5: Learn more를 더 우측(바 끝)으로 */
+.hero-carousel__slide--contain .hero-carousel__learnMore{
+  right: var(--pad-x) !important;   /* 기존 calc(...)보다 더 바깥쪽 */
+}
