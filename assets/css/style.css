@@ -1073,3 +1073,63 @@ html{
   font-size: 14px;
   line-height: 1;
 }
+
+/* ===== Hero banner (Slides 2~5) layout revamp ===== */
+.hero-carousel__slide--contain{
+  /* 바(논문 제목) 높이 + 이미지/바 간격 + 좌우 패딩 */
+  --pubbar-h: 88px;      /* 제목 바 높이(원하면 80~110 조절) */
+  --pubbar-gap: 14px;    /* 피규어와 바 사이 간격 */
+  --pad-x: 22px;         /* 좌우 튀어나옴 방지 패딩 */
+  --pad-top: 18px;       /* 이미지 상단 여백 */
+}
+
+/* 피규어는 "바 위 영역" 안에서만 contain되도록 강제 */
+.hero-carousel__slide--contain .hero-carousel__img{
+  position: absolute;
+  inset: var(--pad-top) var(--pad-x) calc(var(--pubbar-h) + var(--pubbar-gap)) var(--pad-x);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;  /* 투명 PNG도 흰 배경 */
+}
+
+/* 슬라이드 2~5는 shade 제거 유지 */
+.hero-carousel__slide--contain .hero-carousel__shade{
+  display: none;
+}
+
+/* 오버레이(제목 바 + 버튼)를 슬라이드 하단에 배치 */
+.hero-carousel__slide--contain .hero-carousel__overlay{
+  left: var(--pad-x);
+  right: var(--pad-x);
+  bottom: 16px;
+  display: block;          /* flex 말고 block으로(아래에서 절대배치) */
+}
+
+/* 논문 제목 바: 오른쪽까지 길게(버튼 공간은 padding-right로 확보) */
+.hero-carousel__slide--contain .hero-carousel__paperTitle{
+  width:A: 100%;
+  min-height: var(--pubbar-h);
+  display: flex;
+  align-items: center;
+
+  /* 버튼이 위에 올라가도 제목이 겹치지 않게 공간 확보 */
+  padding: 14px 110px 14px 16px;  /* 오른쪽 110px은 버튼 폭 여유 */
+
+  border-radius: 14px;
+  background: rgba(0,0,0,0.62);
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #fff;
+  line-height: 1.45;
+  font-weight: 600;
+  text-shadow: 0 10px 26px rgba(0,0,0,0.35);
+}
+
+/* Learn more: 제목 바 위에 겹치게 + 우측 정렬 */
+.hero-carousel__slide--contain .hero-carousel__learnMore{
+  position: absolute;
+  right: 14px;
+  bottom: calc(16px + (var(--pubbar-h) / 2) - 20px); /* 바 가운데쯤에 오게 */
+  z-index: 3;
+}
