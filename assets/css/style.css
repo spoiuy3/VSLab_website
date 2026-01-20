@@ -1171,3 +1171,40 @@ html{
   line-height: 1;
   transform: translateY(1px);
 }
+
+/* Publications inline actions: vslab color, no icons, hover underline */
+.pub-actions--inline{
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: inherit;
+}
+
+/* 구분점은 유지 */
+.pub-actions__sep{
+  margin: 0 6px;
+  color: rgba(0,0,0,0.35);
+}
+
+/* 링크 텍스트 색상: vslab 컬러 */
+.pub-linkbtn{
+  display: inline-flex;
+  align-items: center;
+  gap: 0;                 /* 아이콘 없애면 gap 불필요 */
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* 아이콘 제거 (Font Awesome i 숨김) */
+.pub-linkbtn__icon{
+  display: none !important;
+}
+
+/* hover: 더 진한색 + 밑줄 */
+.pub-linkbtn:hover{
+  color: #7a0c10; /* var(--accent)보다 더 진한 톤 (원하면 조절) */
+  text-decoration: underline;
+  text-decoration-color: rgba(176,18,23,0.55);
+  text-underline-offset: 2px;
+}
