@@ -1109,7 +1109,7 @@ html{
 
 /* 논문 제목 바: 오른쪽까지 길게(버튼 공간은 padding-right로 확보) */
 .hero-carousel__slide--contain .hero-carousel__paperTitle{
-  width:A: 100%;
+  width: 100%;
   min-height: var(--pubbar-h);
   display: flex;
   align-items: center;
