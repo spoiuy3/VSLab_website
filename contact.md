@@ -28,15 +28,6 @@ permalink: /contact/
         We are always accepting applications, but the timing of interviews may vary depending on the lab's situation, so please be prepared early.
       </p>
 
-      <div class="contact-cta">
-        <a class="btn primary"
-           href="https://forms.gle/wD9tyBAKw8zTTGAo7"
-           target="_blank" rel="noopener">
-          Apply via Google Forms
-        </a>
-        <span class="muted contact-cta-note">Please apply through Google Forms.</span>
-      </div>
-
       <hr class="contact-hr">
 
       <ol class="contact-steps">
@@ -52,10 +43,10 @@ permalink: /contact/
         <li>
           <div class="contact-step-title">Interview</div>
           <ul class="contact-list">
-            <li><b>For PhD/MS students, Postdocs:</b><br>
+            <li><u>For PhD/MS students, Postdocs:</u><br>
               Presentation of portfolio (projects, research interests, self-introduction) and a technical interview.
             </li>
-            <li><b>For Undergraduate interns:</b><br>
+            <li><u>For Undergraduate interns:</u><br>
               Presentation about the interest research topic (or research area you want to study).
             </li>
           </ul>
