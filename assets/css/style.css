@@ -1133,3 +1133,41 @@ html{
   bottom: calc(16px + (var(--pubbar-h) / 2) - 20px); /* 바 가운데쯤에 오게 */
   z-index: 3;
 }
+
+/* Publications: inline text-link actions next to title */
+.pub-actions--inline{
+  margin-left: 8px;          /* 제목과 액션 사이 간격 */
+  font-weight: 600;
+  font-size: 12px;           /* 작게, 부가정보 느낌 */
+  color: var(--muted);
+  white-space: nowrap;       /* 가능하면 한 덩어리로 유지 */
+}
+
+.pub-actions__sep{
+  margin: 0 6px;
+  color: rgba(0,0,0,0.35);
+}
+
+/* 링크 버튼(가벼운 텍스트 스타일) */
+.pub-linkbtn{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  color: rgba(176,18,23,0.70);     /* 기본: 연한 vslab 톤 */
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.pub-linkbtn:hover{
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: rgba(176,18,23,0.35);
+  text-underline-offset: 2px;
+}
+
+.pub-linkbtn__icon i{
+  font-size: 13px;
+  line-height: 1;
+  transform: translateY(1px);
+}
